@@ -2313,8 +2313,16 @@ body.bt6-home[data-bt-help] a.livechat_button::after { content: "Live chat"; }
 body.bt6-home[data-bt-help] a.onewl-whatsapp-button-1::after { content: "WhatsApp 1"; }
 body.bt6-home[data-bt-help] a.onewl-whatsapp-button-2::after { content: "WhatsApp 2"; }
 
-html.pc body.bt6-home { --bt-gutter: clamp(18px,4vw,56px); }
-html.pc body.bt6-home #index > .tabs:not(.isLogin) { height: 67px !important; }
+html.pc body.bt6-home {
+  --bt-gutter: clamp(18px,4vw,56px);
+  --bt-header-inset: max(var(--bt-gutter), calc((100% - var(--bt-width)) / 2));
+  --bt-guest-height: 76px;
+  --bt-guest-columns: auto minmax(0,1fr) repeat(2,clamp(96px,11vw,154px)) repeat(2,var(--bt-account-width));
+  --bt-guest-rows: 34px 20px;
+  --bt-guest-areas: "brand . username password login signup" "bookmark . . recovery . .";
+  background: linear-gradient(90deg,#08090952,#080909c9 22%,#080909d6 50%,#080909c9 78%,#08090952),
+    #090a09 var(--bt-desktop-home-bg, url("https://cdn.bdr8k8.com/backg/BANDARBGSEPT1.webp")) center top / cover no-repeat fixed !important;
+}
 html.pc body.bt6-home #index > .tabs { margin-bottom: 58px !important; }
 html.pc body.bt6-home #index .tabs .logo-box { margin: 0 !important; }
 html.pc body.bt6-home #index .tabs .logo-box .logo { width: clamp(120px, calc(100vw - 522px), 166px) !important; height: 46px !important; }
@@ -2331,6 +2339,63 @@ html.pc body.bt6-home #index > .user {
   border: none !important;
   background: none !important;
 }
+/* Overlay two matching grids so the original tabs and form keep their platform handlers. */
+html.pc body.bt6-home #index > .tabs:not(.isLogin),
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user {
+  display: grid !important;
+  grid-template-columns: var(--bt-guest-columns);
+  grid-template-rows: var(--bt-guest-rows);
+  grid-template-areas: var(--bt-guest-areas);
+  align-content: center;
+  align-items: center !important;
+  justify-content: stretch !important;
+  gap: 2px 8px !important;
+  width: 100% !important;
+  height: var(--bt-guest-height) !important;
+  padding: 0 var(--bt-header-inset) 1px !important;
+}
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user {
+  position: absolute !important;
+  inset: 0 0 auto !important;
+  pointer-events: none;
+}
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user > * { pointer-events: auto; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user .username { grid-area: username; width: 100% !important; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user .password { grid-area: password; width: 100% !important; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) ~ .user .loginBtn { grid-area: login; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab[data-href="#/register"] { grid-area: signup; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .logo-box { grid-area: brand; justify-self: start; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .logo { max-height: 100% !important; object-position: left center; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark,
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget {
+  justify-self: start;
+  justify-content: flex-start !important;
+  height: 20px !important;
+  margin: 0 !important;
+}
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark {
+  grid-area: bookmark;
+  display: inline-flex !important;
+  flex-direction: row !important;
+  gap: 5px;
+  cursor: pointer;
+}
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark img { display: none; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark::before {
+  content: "";
+  position: static;
+  width: 8px;
+  height: 11px;
+  background: #dcc774;
+  clip-path: polygon(0 0,100% 0,100% 100%,50% 72%,0 100%);
+}
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget { grid-area: recovery; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget span { padding: 2px 0 !important; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) :is(.bookmark:hover b,.tab-forget span:hover) {
+  color: #ffdf58 !important;
+  text-decoration: underline;
+}
+html.pc body.bt6-home:has(#index > .tabs:not(.isLogin)) footer.index-footer { top: var(--bt-guest-height) !important; }
 html.pc body.bt6-home footer.index-footer {
   position: absolute !important;
   inset: 67px auto auto 50% !important;
@@ -2383,8 +2448,17 @@ html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !imp
   html.mobile body.bt6-home #index .tabs .logo-box .logo { width: 111px !important; }
 }
 @media (max-width: 820px) {
-  html.pc body.bt6-home #index .tabs .bookmark { visibility: hidden; width: 0 !important; overflow: hidden; }
+  html.pc body.bt6-home #index .tabs.isLogin .bookmark { visibility: hidden; width: 0 !important; overflow: hidden; }
   html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: column !important; gap: 2px !important; }
+}
+@media (max-width: 680px) {
+  html.pc body.bt6-home {
+    --bt-guest-height: 106px;
+    --bt-guest-columns: repeat(2,minmax(0,1fr)) repeat(2,var(--bt-account-width));
+    --bt-guest-rows: 32px 34px 20px;
+    --bt-guest-areas: "brand brand bookmark bookmark" "username password login signup" ". recovery . .";
+  }
+  html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark { justify-self: end; }
 }
 @media (max-width: 640px) {
   html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 43px !important; }
