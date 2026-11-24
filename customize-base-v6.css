@@ -2405,8 +2405,8 @@ body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; trans
   body.bt6-home #index .game-menus .game-menu::after { transition: transform 270ms var(--bt-ease); }
   body.bt6-home #index .game-menu-current b[data-bt-jewel] { animation: bt6-select 290ms var(--bt-ease); }
 
-  body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-searched]) > .game-category-current > .game-item:nth-child(-n+6),
-  html.pc body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-searched]) > .game-category-current > .game-item:nth-child(-n+8) {
+  body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-skip-reveal]) > .game-category-current > .game-item:nth-child(-n+6),
+  html.pc body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-skip-reveal]) > .game-category-current > .game-item:nth-child(-n+8) {
     animation: bt6-arrive 220ms var(--bt-ease) var(--bt-delay, 0ms) backwards;
   }
   body.bt6-home .game-category > .game-item:nth-child(2) { --bt-delay: 20ms; }
