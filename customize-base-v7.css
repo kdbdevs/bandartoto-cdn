@@ -1564,6 +1564,8 @@ html:is(.mobile,.pc) body.bt6-home {
   --bt-muted: #c0bfb7;
   --bt-amber: #ffdc32;
   --bt-ink: #151407;
+  --bt-account-width: 92px;
+  --bt-account-height: 44px;
   --bt-line: #464536;
   --bt-surface: linear-gradient(165deg, #262724 0%, #191a18 39%, #131412 74%, #0c0d0c 100%);
   --bt-metal: linear-gradient(112deg, #fff19a 0%, #ffe54a 23%, var(--bt-amber) 58%, #f3c21b 82%, #fff2a0 100%);
@@ -1689,23 +1691,7 @@ body.bt6-home #index .tabs .tab-forget span {
   padding: 5px 0 !important;
   background: none !important;
 }
-body.bt6-home #index .tabs .tab[data-href="#/register"] {
-  order: 2;
-  min-width: 67px !important;
-  padding: 0 13px !important;
-  border: 1px solid #f4d450 !important;
-  border-radius: 8px !important;
-  color: var(--bt-ink) !important;
-  background: var(--bt-metal) !important;
-  box-shadow: inset 0 1px #fff8be85, 0 2px 5px #0007 !important;
-}
-body.bt6-home #index .tabs .tab[data-href="#/register"] b {
-  color: var(--bt-ink) !important;
-  -webkit-text-fill-color: currentColor !important;
-  font-size: 12px !important;
-}
 body.bt6-home #index .tabs .tab[data-href="#/register"] img,
-body.bt6-home #index .tabs .tab[data-href="#/register"]::before,
 body.bt6-home #index .user .loginBtn::before { display: none !important; }
 body.bt6-home #index > .user {
   position: relative !important;
@@ -1715,9 +1701,9 @@ body.bt6-home #index > .user {
   justify-content: center !important;
   gap: 7px !important;
   width: 100% !important;
-  height: 49px !important;
+  height: 55px !important;
   margin: 0 !important;
-  padding: 4px var(--bt-gutter) 8px !important;
+  padding: 4px var(--bt-gutter) 6px !important;
   border: 0 !important;
   border-bottom: 1px solid #3c3d3399 !important;
   background: linear-gradient(180deg, #121311, #151613 52%, #101110) !important;
@@ -1729,7 +1715,7 @@ body.bt6-home #index .user :is(.username,.password) {
   flex: 1 1 0 !important;
   min-width: 0 !important;
   width: auto !important;
-  height: 34px !important;
+  height: var(--bt-account-height) !important;
   box-sizing: border-box;
   margin: 0 !important;
   padding: 0 !important;
@@ -1755,27 +1741,70 @@ body.bt6-home #index .user input, body.bt6-home .bt-query {
   box-shadow: none !important;
 }
 body.bt6-home #index input::placeholder { color: #bdbeb7 !important; opacity: 1; }
+body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"],
 body.bt6-home #index .user .loginBtn {
   display: inline-flex !important;
   position: relative !important;
   align-items: center !important;
   justify-content: center !important;
-  flex: 0 0 auto !important;
-  gap: 10px;
-  box-sizing: border-box;
-  min-width: 66px !important;
-  height: 34px !important;
+  flex: 0 0 var(--bt-account-width) !important;
+  width: var(--bt-account-width) !important;
+  height: var(--bt-account-height) !important;
+  box-sizing: border-box !important;
   margin: 0 !important;
-  padding: 0 14px !important;
+  padding: 0 8px !important;
   border: 1px solid #ffea75 !important;
-  border-bottom-color: #bd9b13 !important;
-  border-radius: 7px !important;
+  border-radius: 9px !important;
   background: var(--bt-metal) !important;
-  box-shadow: inset 0 1px #fff5b9ad, inset 0 -2px 2px #89740e2b, 0 2px 0 #77600b, 0 4px 14px #ffdf3026 !important;
+  box-shadow: inset 0 1px #fff8be85, inset 0 -1px #ae890d66 !important;
   color: var(--bt-ink) !important;
   -webkit-text-fill-color: currentColor !important;
-  font: 800 12px/1 var(--bt-font) !important;
+  font: 800 14px/1 var(--bt-font) !important;
+  overflow: hidden !important;
   cursor: pointer;
+}
+body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"] {
+  order: 2;
+  gap: 6px;
+  box-shadow: inset 0 1px #fff8be85, inset 0 -1px #ae890d66, 0 0 11px #ffdc3238 !important;
+}
+body.bt6-home #index .tabs .tab[data-href="#/register"] b {
+  position: relative;
+  z-index: 1;
+  color: inherit !important;
+  -webkit-text-fill-color: currentColor !important;
+  font: inherit !important;
+}
+body.bt6-home #index .tabs .tab[data-href="#/register"]::before { display: none !important; }
+body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"]::after {
+  content: "" !important;
+  position: relative;
+  flex: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background:
+    linear-gradient(45deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 33% / 5px 5px no-repeat,
+    linear-gradient(135deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 67% / 5px 5px no-repeat,
+    #272512;
+  pointer-events: none;
+}
+@keyframes bt7-signup-shine {
+  0%, 12% { transform: translateX(-150%) skewX(-20deg); }
+  34%, 100% { transform: translateX(480%) skewX(-20deg); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"]::before {
+    content: "";
+    display: block !important;
+    position: absolute;
+    inset: -15% auto -15% 0;
+    width: 28%;
+    height: auto;
+    background: linear-gradient(90deg, transparent, #fff9cdbb, transparent);
+    animation: bt7-signup-shine 5s ease-in-out infinite;
+    pointer-events: none;
+  }
 }
 
 /* Keep the native promotion carousel, its controls and its slide proportions. */
@@ -2288,17 +2317,17 @@ html.pc body.bt6-home { --bt-gutter: clamp(18px,4vw,56px); }
 html.pc body.bt6-home #index > .tabs:not(.isLogin) { height: 67px !important; }
 html.pc body.bt6-home #index > .tabs { margin-bottom: 58px !important; }
 html.pc body.bt6-home #index .tabs .logo-box { margin: 0 !important; }
-html.pc body.bt6-home #index .tabs .logo-box .logo { width: 166px !important; height: 46px !important; }
+html.pc body.bt6-home #index .tabs .logo-box .logo { width: clamp(120px, calc(100vw - 522px), 166px) !important; height: 46px !important; }
 html.pc body.bt6-home #index .tabs .bookmark { margin-right: auto !important; gap: 4px; }
 html.pc body.bt6-home #index .tabs .bookmark img { width: 13px !important; height: 13px !important; }
 html.pc body.bt6-home #index .tabs .bookmark b { font: 500 11px var(--bt-font); color: #bfc0b7; }
 html.pc body.bt6-home #index > .user {
   position: absolute !important;
   top: 0 !important;
-  right: max(calc(var(--bt-gutter) + 180px),calc((100% - var(--bt-width)) / 2 + 180px)) !important;
+  right: max(calc(var(--bt-gutter) + var(--bt-account-width) + 105px),calc((100% - var(--bt-width)) / 2 + var(--bt-account-width) + 105px)) !important;
   width: clamp(265px,28vw,380px) !important;
   height: 67px !important;
-  padding: 0 !important;
+  padding: 0 0 1px !important;
   border: none !important;
   background: none !important;
 }
@@ -2350,7 +2379,7 @@ html.pc body.bt6-home #index .game-items .game-item p:first-child { aspect-ratio
 html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !important; font-size: 13px !important; }
 
 @media (max-width: 360px) {
-  html.mobile body.bt6-home #index > .tabs { gap: 8px; }
+  html.mobile body.bt6-home #index > .tabs { gap: 6px; }
   html.mobile body.bt6-home #index .tabs .logo-box .logo { width: 111px !important; }
 }
 @media (max-width: 820px) {
@@ -2358,7 +2387,7 @@ html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !imp
   html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: column !important; gap: 2px !important; }
 }
 @media (max-width: 640px) {
-  html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 43px !important; }
+  html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 54px !important; }
   html.pc body.bt6-home #index .tabs .tab-forget { margin-left: auto !important; }
   html.pc body.bt6-home #index #onewl-insert-wrapper a { flex-direction: column; gap: 2px; padding: 5px !important; }
   html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 11px !important; }
