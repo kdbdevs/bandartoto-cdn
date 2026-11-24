@@ -1572,6 +1572,7 @@ html:is(.mobile,.pc) body.bt6-home {
   --bt-jewels: url("https://cdn.cloudnes.space/sm/bandartoto-v6/lobby-icons-24f2978a39a5.webp");
   --bt-font: "BT Geist", system-ui, sans-serif;
   --bt-display: "BT Barlow", "Arial Narrow", sans-serif;
+  --bt-ease: cubic-bezier(.2,.75,.25,1);
   font-family: var(--bt-font) !important;
   color: var(--bt-paper) !important;
   background: radial-gradient(ellipse 80% 490px at 47% 0%, #332414 0%, #1b150d 48%, transparent 100%),
@@ -1772,7 +1773,6 @@ body.bt6-home #index :is(.bt-gold-button,.user .loginBtn) {
   font: 800 12px/1 var(--bt-font) !important;
   cursor: pointer;
 }
-body.bt6-home #index :is(.bt-gold-button,.user .loginBtn):active { transform: translateY(1px); }
 
 /* Loaded native promotions use the whole frame. A compact catalog link fills in while images are unavailable. */
 body.bt6-home #index > .swiper-box {
@@ -2012,15 +2012,29 @@ body.bt6-home #index .game-list :is(.game-menus,.game-menu,.game-items) {
 }
 body.bt6-home #index .game-list .game-menus { display: block !important; overflow: visible !important; }
 body.bt6-home #index .game-menus .game-menu {
+  --bt-tab-gap: 4px;
+  position: relative !important;
   display: grid !important;
   grid-auto-flow: column !important;
   grid-auto-columns: minmax(46px, 1fr) !important;
   align-items: stretch !important;
-  gap: 4px !important;
+  gap: var(--bt-tab-gap) !important;
   padding: 2px 1px 4px !important;
   overflow: auto hidden !important;
   scrollbar-width: thin;
   scrollbar-color: #805b29 transparent;
+}
+/* Anchor the marker to the first grid track so it follows the tabs through swipes and resizes. */
+body.bt6-home #index .game-menus .game-menu::after {
+  content: "";
+  position: absolute;
+  grid-area: 1 / 1 / 2 / 2;
+  inset: auto 0 0;
+  height: 2px;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent 10%, #e9a32d 33%, #fff2b6 50%, #e9a32d 67%, transparent 90%);
+  transform: translateX(calc(var(--bt-tab-index, -1) * (100% + var(--bt-tab-gap))));
 }
 body.bt6-home #index .game-menu > p { display: none !important; }
 body.bt6-home #index .game-list .game-menu .game-menu-item {
@@ -2046,7 +2060,7 @@ body.bt6-home #index .game-list .game-menu .game-menu-current {
   border-color: #c99534 !important;
   border-top-color: #ffe184 !important;
   background: radial-gradient(ellipse at 54% 7%,#a56a19a1 0%,transparent 80%), linear-gradient(160deg,#614421,#3c2b14 55%,#291c0c) !important;
-  box-shadow: inset 0 1px #ffdc7e75, inset 0 -2px #f4a71e90, 0 2px 5px #0008 !important;
+  box-shadow: inset 0 1px #ffdc7e75, 0 2px 5px #0008 !important;
 }
 body.bt6-home #index .game-menu .game-menu-item::before,
 body.bt6-home #index .game-menu .game-menu-item::after,
@@ -2342,7 +2356,7 @@ html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 
 html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
 html.pc body.bt6-home #index .bt-catalog-title { font-size: 36px; }
 html.pc body.bt6-home .bt-search { width: 185px; height: 35px; }
-html.pc body.bt6-home #index .game-menu { gap: 8px !important; }
+html.pc body.bt6-home #index .game-menus .game-menu { --bt-tab-gap: 8px; }
 html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: row !important; gap: 7px !important; height: 55px !important; }
 html.pc body.bt6-home #index .game-menu .game-menu-item b[data-bt-jewel] { width: 35px !important; height: 35px !important; }
 html.pc body.bt6-home #index .game-list .game-menu .game-menu-item i { width: auto !important; }
@@ -2367,8 +2381,72 @@ html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !imp
   html.pc body.bt6-home #index #onewl-insert-wrapper a { flex-direction: column; gap: 2px; padding: 5px !important; }
   html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 11px !important; }
 }
-@media (hover:hover) {
-  body.bt6-home #index :is(.game-item,.game-menu-item,#onewl-insert-wrapper a,.bt-gold-button):hover { filter: brightness(1.13); }
+/* Keep the host's transition:all off the layout, catalog art and icon sprite. */
+body.bt6-home #index :where(.game-menu,.game-menu-item,.game-menu-item b,.game-items,.game-category,.game-item,.game-item img,.bt-short-jewel,.bt-gold-button,.loginBtn),
+body.bt6-home footer.index-footer .nav-item .icon { transition: none !important; }
+body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; transition: none !important; }
+
+@keyframes bt6-arrive {
+  from { opacity: .45; transform: translateY(9px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes bt6-select {
+  from { scale: .91; }
+  52% { scale: 1.10; }
+  to { scale: 1; }
+}
+@keyframes bt6-sheen {
+  from { opacity: 0; transform: translateX(-120%) skewX(-17deg); }
+  28% { opacity: .7; }
+  to { opacity: 0; transform: translateX(365%) skewX(-17deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body.bt6-home #index .game-menus .game-menu::after { transition: transform 270ms var(--bt-ease); }
+  body.bt6-home #index .game-menu-current b[data-bt-jewel] { animation: bt6-select 290ms var(--bt-ease); }
+
+  body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-searched]) > .game-category-current > .game-item:nth-child(-n+6),
+  html.pc body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-searched]) > .game-category-current > .game-item:nth-child(-n+8) {
+    animation: bt6-arrive 220ms var(--bt-ease) var(--bt-delay, 0ms) backwards;
+  }
+  body.bt6-home .game-category > .game-item:nth-child(2) { --bt-delay: 20ms; }
+  body.bt6-home .game-category > .game-item:nth-child(3) { --bt-delay: 40ms; }
+  body.bt6-home .game-category > .game-item:nth-child(4) { --bt-delay: 60ms; }
+  body.bt6-home .game-category > .game-item:nth-child(5) { --bt-delay: 80ms; }
+  body.bt6-home .game-category > .game-item:nth-child(6) { --bt-delay: 100ms; }
+  body.bt6-home .game-category > .game-item:nth-child(7) { --bt-delay: 120ms; }
+  body.bt6-home .game-category > .game-item:nth-child(8) { --bt-delay: 140ms; }
+
+  body.bt6-home .bt-spot-content,
+  body.bt6-home[data-bt-help] :is(a.livechat_button.bottom-button,a.onewl-whatsapp-button-1,a.onewl-whatsapp-button-2) {
+    animation: bt6-arrive 190ms var(--bt-ease);
+  }
+  body.bt6-home #index :is(.game-item,.game-menu-item,.bt-gold-button,.loginBtn),
+  body.bt6-home #index #onewl-insert-wrapper a,
+  body.bt6-home footer.index-footer .nav-item .icon {
+    transition: scale 125ms var(--bt-ease) !important;
+  }
+  body.bt6-home #index :is(.game-item,.game-menu-item,.bt-gold-button,.loginBtn):active,
+  body.bt6-home #index #onewl-insert-wrapper a:active,
+  body.bt6-home footer.index-footer .nav-item:active .icon { scale: .96; }
+
+  body.bt6-home #index :is(.bt-gold-button,.loginBtn) { overflow: hidden; }
+  body.bt6-home #index :is(.bt-gold-button,.loginBtn)::after {
+    content: "";
+    position: absolute;
+    inset: -30% auto -30% 0;
+    width: 40%;
+    pointer-events: none;
+    opacity: 0;
+    background: linear-gradient(90deg, transparent, #fff9d6b3, transparent);
+  }
+  body.bt6-home #index :is(.bt-gold-button,.loginBtn):focus-visible::after { animation: bt6-sheen 460ms ease-out; }
+}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
+  body.bt6-home #index :is(.game-item img,.bt-short-jewel) { transition: scale 220ms var(--bt-ease) !important; }
+  body.bt6-home #index .game-item:is(:hover,:focus-visible) img,
+  body.bt6-home #index #onewl-insert-wrapper a:is(:hover,:focus-visible) .bt-short-jewel { scale: 1.055; }
+  body.bt6-home #index :is(.bt-gold-button,.loginBtn):hover::after { animation: bt6-sheen 460ms ease-out; }
 }
 @media (prefers-reduced-motion:reduce) {
   body.bt6-home #index .notice ul { animation-play-state: paused !important; }
