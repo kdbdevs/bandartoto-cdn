@@ -2255,30 +2255,6 @@ html.mobile body.bt6-home footer.index-footer {
   max-width: 100% !important;
   padding-bottom: env(safe-area-inset-bottom,0px) !important;
 }
-html.mobile body.bt6-home footer.index-footer .nav-item[data-lang="activity"] .icon[data-bt-jewel] {
-  position: relative !important;
-  z-index: 1;
-  width: 42px !important;
-  height: 42px !important;
-  margin-top: -12px !important;
-  filter: drop-shadow(0 0 5px #ffab217d) drop-shadow(0 2px 3px #000) !important;
-}
-html.mobile body.bt6-home footer.index-footer .nav-item[data-lang="activity"]::before {
-  content: "" !important;
-  position: absolute !important;
-  z-index: 0;
-  inset: -9px auto auto 50% !important;
-  transform: translateX(-50%) !important;
-  box-sizing: border-box;
-  width: 53px !important;
-  height: 43px !important;
-  margin: 0 !important;
-  border: 1px solid #a77831 !important;
-  border-bottom: 0 !important;
-  border-radius: 50% 50% 38% 38% !important;
-  background: radial-gradient(ellipse at 50% 26%,#614421,#2a2114 58%,#211a10) !important;
-  box-shadow: inset 0 1px #f2c57255;
-}
 html.mobile body.bt6-home #index { padding-bottom: calc(70px + env(safe-area-inset-bottom,0px)) !important; }
 html.mobile body.bt6-home #index .bookmark { display: none !important; }
 
