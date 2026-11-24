@@ -1564,8 +1564,8 @@ html:is(.mobile,.pc) body.bt6-home {
   --bt-muted: #c0bfb7;
   --bt-amber: #ffdc32;
   --bt-ink: #151407;
-  --bt-account-width: 92px;
-  --bt-account-height: 44px;
+  --bt-account-width: 70px;
+  --bt-account-height: 34px;
   --bt-line: #464536;
   --bt-surface: linear-gradient(165deg, #262724 0%, #191a18 39%, #131412 74%, #0c0d0c 100%);
   --bt-metal: linear-gradient(112deg, #fff19a 0%, #ffe54a 23%, var(--bt-amber) 58%, #f3c21b 82%, #fff2a0 100%);
@@ -1701,9 +1701,9 @@ body.bt6-home #index > .user {
   justify-content: center !important;
   gap: 7px !important;
   width: 100% !important;
-  height: 55px !important;
+  height: 49px !important;
   margin: 0 !important;
-  padding: 4px var(--bt-gutter) 6px !important;
+  padding: 4px var(--bt-gutter) 8px !important;
   border: 0 !important;
   border-bottom: 1px solid #3c3d3399 !important;
   background: linear-gradient(180deg, #121311, #151613 52%, #101110) !important;
@@ -1752,20 +1752,20 @@ body.bt6-home #index .user .loginBtn {
   height: var(--bt-account-height) !important;
   box-sizing: border-box !important;
   margin: 0 !important;
-  padding: 0 8px !important;
+  padding: 0 5px !important;
   border: 1px solid #ffea75 !important;
-  border-radius: 9px !important;
+  border-radius: 7px !important;
   background: var(--bt-metal) !important;
   box-shadow: inset 0 1px #fff8be85, inset 0 -1px #ae890d66 !important;
   color: var(--bt-ink) !important;
   -webkit-text-fill-color: currentColor !important;
-  font: 800 14px/1 var(--bt-font) !important;
+  font: 800 12px/1 var(--bt-font) !important;
   overflow: hidden !important;
   cursor: pointer;
 }
 body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"] {
   order: 2;
-  gap: 6px;
+  gap: 4px;
   box-shadow: inset 0 1px #fff8be85, inset 0 -1px #ae890d66, 0 0 11px #ffdc3238 !important;
 }
 body.bt6-home #index .tabs .tab[data-href="#/register"] b {
@@ -1780,12 +1780,12 @@ body.bt6-home #index .tabs:not(.isLogin) .tab[data-href="#/register"]::after {
   content: "" !important;
   position: relative;
   flex: none;
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
   background:
-    linear-gradient(45deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 33% / 5px 5px no-repeat,
-    linear-gradient(135deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 67% / 5px 5px no-repeat,
+    linear-gradient(45deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 33% / 4px 4px no-repeat,
+    linear-gradient(135deg, transparent 38%, #ffeb70 40% 62%, transparent 64%) 55% 67% / 4px 4px no-repeat,
     #272512;
   pointer-events: none;
 }
@@ -2387,7 +2387,7 @@ html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !imp
   html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: column !important; gap: 2px !important; }
 }
 @media (max-width: 640px) {
-  html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 54px !important; }
+  html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 43px !important; }
   html.pc body.bt6-home #index .tabs .tab-forget { margin-left: auto !important; }
   html.pc body.bt6-home #index #onewl-insert-wrapper a { flex-direction: column; gap: 2px; padding: 5px !important; }
   html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 11px !important; }
