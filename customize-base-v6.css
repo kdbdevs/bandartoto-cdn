@@ -1,0 +1,2763 @@
+.mobile .theme-style .tabs.isLogin {
+    height: 6.5rem !important;
+}
+
+.black-gold-theme .tabs,
+.black-gold-theme .tabs .logo,
+.black-gold-theme .user,
+.pc .black-gold-theme .index-footer {
+  background: #000 !important;
+}
+.pc .black-gold-theme footer .nav-item-active {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  position: relative;
+}
+.pc .index-footer {
+  margin-left: -700px !important;
+}
+footer {
+  border-radius: 0 !important;
+}
+.champagne-gold-theme .game-list .game-menu .game-menu-item i {
+  display: none !important;
+}
+.champagne-gold-theme .notice {
+  background: #00000080 !important;
+  border-bottom: none !important;
+}
+body.champagne-gold-theme .game-bank-rule,
+body.champagne-gold-theme #articlerule {
+  margin: 14px 1rem 7rem !important;
+  color: #f5f5f5 !important;
+}
+body.champagne-gold-theme .game-bank-rule .home-banklist,
+body.champagne-gold-theme #articlerule .home-banklist {
+  position: relative !important;
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+}
+body.champagne-gold-theme .game-bank-rule dt,
+body.champagne-gold-theme #articlerule dt {
+  width: auto !important;
+  height: 3.5rem !important;
+  margin: 0 !important;
+  line-height: 3.5rem !important;
+  border-radius: 12px 12px 0 0 !important;
+  background:
+    linear-gradient(180deg, rgba(35, 35, 35, 0.96), rgba(5, 5, 5, 0.96)) !important;
+  border-bottom: 1px solid rgba(254, 216, 4, 0.24) !important;
+  color: #fed804 !important;
+  font-weight: 900 !important;
+  text-shadow: 0 0 10px rgba(254, 216, 4, 0.34) !important;
+}
+body.champagne-gold-theme .game-bank-rule .bank-rule,
+body.champagne-gold-theme #articlerule .bank-rule {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: 360px !important;
+  margin: 0 !important;
+  padding: 14px 16px !important;
+  overflow: auto !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.66) !important;
+  border: 1px solid rgba(254, 216, 4, 0.22) !important;
+  border-top: 0 !important;
+  border-radius: 0 0 12px 12px !important;
+  color: #f4f4f4 !important;
+  line-height: 1.65 !important;
+  text-align: left !important;
+  text-transform: none !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 8px 18px rgba(0, 0, 0, 0.35) !important;
+}
+body.champagne-gold-theme .game-bank-rule .home-banklist.off .bank-rule,
+body.champagne-gold-theme #articlerule .home-banklist.off .bank-rule {
+  display: none !important;
+}
+body.champagne-gold-theme .game-bank-rule .word-content,
+body.champagne-gold-theme #articlerule .word-content {
+  display: block !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #f4f4f4 !important;
+  line-height: 1.65 !important;
+  text-align: left !important;
+  text-transform: none !important;
+}
+body.champagne-gold-theme .game-bank-rule .article-title,
+body.champagne-gold-theme .game-bank-rule h1,
+body.champagne-gold-theme .game-bank-rule h2,
+body.champagne-gold-theme .game-bank-rule h3,
+body.champagne-gold-theme .game-bank-rule h4,
+body.champagne-gold-theme #articlerule .article-title,
+body.champagne-gold-theme #articlerule h1,
+body.champagne-gold-theme #articlerule h2,
+body.champagne-gold-theme #articlerule h3,
+body.champagne-gold-theme #articlerule h4 {
+  color: #fed804 !important;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.95),
+    0 0 10px rgba(254, 216, 4, 0.22) !important;
+}
+body.champagne-gold-theme .game-bank-rule p,
+body.champagne-gold-theme .game-bank-rule li,
+body.champagne-gold-theme .game-bank-rule span,
+body.champagne-gold-theme #articlerule p,
+body.champagne-gold-theme #articlerule li,
+body.champagne-gold-theme #articlerule span {
+  color: #f1f1f1 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85) !important;
+}
+body.champagne-gold-theme .game-bank-rule a,
+body.champagne-gold-theme #articlerule a {
+  color: #fed804 !important;
+  -webkit-text-fill-color: #fed804 !important;
+  text-shadow: 0 0 8px rgba(254, 216, 4, 0.28) !important;
+}
+body.champagne-gold-theme .game-bank-rule ul,
+body.champagne-gold-theme .game-bank-rule ol,
+body.champagne-gold-theme #articlerule ul,
+body.champagne-gold-theme #articlerule ol {
+  margin: 8px 0 14px 22px !important;
+  padding-left: 18px !important;
+  color: #f1f1f1 !important;
+  text-align: left !important;
+  list-style-position: outside !important;
+}
+body.champagne-gold-theme .game-bank-rule ul,
+body.champagne-gold-theme #articlerule ul {
+  list-style-type: disc !important;
+}
+body.champagne-gold-theme .game-bank-rule ol,
+body.champagne-gold-theme #articlerule ol {
+  list-style-type: decimal !important;
+}
+body.champagne-gold-theme .game-bank-rule li,
+body.champagne-gold-theme #articlerule li {
+  display: list-item !important;
+  margin: 4px 0 !important;
+  padding-left: 2px !important;
+  line-height: 1.55 !important;
+}
+.champagne-gold-theme .user .password, .champagne-gold-theme .user .username {
+    background: #fff !important;
+    border-radius: 0 10px;
+}
+.champagne-gold-theme .user .loginBtn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #fff349, #fed804) !important;
+  border: 1px solid #ffe08a !important;
+  border-radius: 10px 0 !important;
+  box-shadow:
+    0 0 8px rgba(243, 201, 71, 0.45),
+    inset 0 0 8px rgba(255, 240, 164, 0.35) !important;
+  color: #232323 !important;
+}
+.champagne-gold-theme .user .loginBtn::before {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -45%;
+  width: 35%;
+  height: 220%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.9),
+    transparent
+  );
+  transform: skewX(-24deg);
+  animation: login-btn-shine 2.2s linear infinite;
+  pointer-events: none;
+}
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"] {
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #fff349, #fed804) !important;
+    border: 1px solid #ffe08a !important;
+    border-radius: 10px 0 !important;
+    box-shadow: 0 0 8px rgba(243, 201, 71, 0.45), inset 0 0 8px rgba(255, 240, 164, 0.35) !important;
+    color: #232323 !important;
+    -webkit-text-fill-color: #232323 !important;
+    width: calc(12%) !important;
+    right: 1%;
+}
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"]::before {
+  content: "";
+  position: absolute;
+  top: -60%;
+  left: -45%;
+  width: 35%;
+  height: 220%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.9),
+    transparent
+  );
+  transform: skewX(-24deg);
+  animation: login-btn-shine 2.2s linear infinite;
+  pointer-events: none;
+}
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"] img,
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"] b {
+  position: relative;
+  z-index: 1;
+}
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"] b {
+    color: #232323 !important;
+    -webkit-text-fill-color: #232323 !important;
+    font-size: 11.4667px !important;
+    font-weight: 800;
+}
+.mobile .tabs .tab {
+    font-size: 0.8rem !important;
+}
+.mobile .champagne-gold-theme .tabs .tab[data-href="#/register"] img {
+  filter: brightness(0) saturate(100%) !important;
+}
+@keyframes login-btn-shine {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 115%;
+  }
+}
+.mobile .tabs .tab.tab-forget {
+    display: flex;
+    position: absolute;
+    right: calc(30.5%);
+    flex-direction: column;
+    bottom: calc(4%);
+}
+.mobile .champagne-gold-theme footer .nav-item h3 {
+    color: #fed804 !important;
+}
+.champagne-gold-theme .loginForm {
+    background: #000000 !important;
+}
+.champagne-gold-theme .navigator-bar {
+    background: #000 !important;
+}
+.champagne-gold-theme .service-navi-bar,
+body.champagne-gold-theme .service-navi-bar {
+  background: #000 !important;
+}
+.champagne-gold-theme .more-menu-box {
+    background: #181818 !important;
+}
+.theme-style .more-menu-box {
+    width: 70% !important;
+}
+body.champagne-gold-theme .more-menu-bg,
+.champagne-gold-theme .more-menu-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 10020 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  background: rgba(0, 0, 0, 0.68) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+body.champagne-gold-theme .more-menu-bg .more-menu-box,
+.champagne-gold-theme .more-menu-bg .more-menu-box,
+body.champagne-gold-theme.theme-style .more-menu-box {
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 10021 !important;
+  width: 78% !important;
+  width: min(78%, 380px) !important;
+  max-width: 380px !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-height: 100vh !important;
+  max-height: 100dvh !important;
+  padding: 10px 10px calc(24px + env(safe-area-inset-bottom, 0px)) !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior: contain !important;
+  transform: translateZ(0) !important;
+  background:
+    linear-gradient(180deg, rgba(25, 25, 25, 0.98), rgba(2, 2, 2, 0.98)) !important;
+  border-right: 1px solid rgba(254, 216, 4, 0.34) !important;
+  box-shadow:
+    8px 0 24px rgba(0, 0, 0, 0.62),
+    inset -1px 0 0 rgba(255, 255, 255, 0.06) !important;
+}
+body.champagne-gold-theme .more-menu-box ul,
+.champagne-gold-theme .more-menu-box ul {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 0 calc(28px + env(safe-area-inset-bottom, 0px)) !important;
+  list-style: none !important;
+}
+body.champagne-gold-theme .more-menu-box li,
+.champagne-gold-theme .more-menu-box li {
+  position: relative !important;
+  flex-shrink: 0 !important;
+  min-height: 46px !important;
+  margin: 8px 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  background-color: rgba(255, 255, 255, 0.055) !important;
+  background-repeat: no-repeat !important;
+  background-position: 14px center !important;
+  background-size: 28px 28px !important;
+  border: 1px solid rgba(254, 216, 4, 0.16) !important;
+  border-radius: 10px 0 10px 0 !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 4px 10px rgba(0, 0, 0, 0.28) !important;
+}
+body.champagne-gold-theme .more-menu-box li::after,
+.champagne-gold-theme .more-menu-box li::after {
+  content: "" !important;
+  position: absolute !important;
+  top: -70% !important;
+  left: -45% !important;
+  width: 28% !important;
+  height: 230% !important;
+  background:
+    linear-gradient(90deg, transparent, rgba(254, 216, 4, 0.26), transparent) !important;
+  transform: skewX(-24deg) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+body.champagne-gold-theme .more-menu-box li:active,
+.champagne-gold-theme .more-menu-box li:active {
+  transform: translateY(1px) !important;
+}
+body.champagne-gold-theme .more-menu-box li:hover,
+.champagne-gold-theme .more-menu-box li:hover {
+  background-color: rgba(254, 216, 4, 0.12) !important;
+  border-color: rgba(254, 216, 4, 0.42) !important;
+}
+body.champagne-gold-theme .more-menu-box li:hover::after,
+.champagne-gold-theme .more-menu-box li:hover::after {
+  opacity: 1 !important;
+  animation: onewl-menu-shine 1.4s ease-out !important;
+}
+body.champagne-gold-theme .more-menu-box li a,
+.champagne-gold-theme .more-menu-box li a {
+  position: relative !important;
+  z-index: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  min-height: 46px !important;
+  margin: 0 !important;
+  padding: 8px 12px 8px 54px !important;
+  box-sizing: border-box !important;
+  color: #f5f5f5 !important;
+  -webkit-text-fill-color: #f5f5f5 !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: 1.22 !important;
+  text-decoration: none !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9) !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+body.champagne-gold-theme .more-menu-box li.customMenu a,
+.champagne-gold-theme .more-menu-box li.customMenu a {
+  color: #fed804 !important;
+  -webkit-text-fill-color: #fed804 !important;
+}
+body.champagne-gold-theme .more-menu-box .menu-close,
+.champagne-gold-theme .more-menu-box .menu-close {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 4 !important;
+  justify-content: flex-end !important;
+  min-height: 48px !important;
+  margin: 0 0 10px !important;
+  background: rgba(0, 0, 0, 0.62) !important;
+  background-image: none !important;
+  border-color: rgba(254, 216, 4, 0.26) !important;
+  border-radius: 0 0 12px 12px !important;
+}
+body.champagne-gold-theme .more-menu-box .menu-close a,
+.champagne-gold-theme .more-menu-box .menu-close a {
+  position: relative !important;
+  width: 42px !important;
+  min-height: 42px !important;
+  margin: 0 4px 0 auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  filter: none !important;
+}
+body.champagne-gold-theme .more-menu-box .menu-close a::before,
+body.champagne-gold-theme .more-menu-box .menu-close a::after,
+.champagne-gold-theme .more-menu-box .menu-close a::before,
+.champagne-gold-theme .more-menu-box .menu-close a::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 10px !important;
+  top: 20px !important;
+  width: 22px !important;
+  height: 2px !important;
+  background: #fed804 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 0 8px rgba(254, 216, 4, 0.48) !important;
+}
+body.champagne-gold-theme .more-menu-box .menu-close a::before,
+.champagne-gold-theme .more-menu-box .menu-close a::before {
+  transform: rotate(45deg) !important;
+}
+body.champagne-gold-theme .more-menu-box .menu-close a::after,
+.champagne-gold-theme .more-menu-box .menu-close a::after {
+  transform: rotate(-45deg) !important;
+}
+body.champagne-gold-theme .more-menu-box .logoutIcon,
+.champagne-gold-theme .more-menu-box .logoutIcon {
+  margin-top: 14px !important;
+  justify-content: flex-start !important;
+  height: auto !important;
+  min-height: 46px !important;
+  padding: 0 !important;
+  background-position: 14px center !important;
+  background-size: 28px 28px !important;
+  background-color: rgba(152, 23, 23, 0.68) !important;
+  border-color: rgba(255, 88, 88, 0.42) !important;
+  text-align: left !important;
+}
+body.champagne-gold-theme .more-menu-box .logoutIcon a,
+.champagne-gold-theme .more-menu-box .logoutIcon a,
+body.champagne-gold-theme .more-menu-box .logoutIcon a.jq-logout-btn,
+.champagne-gold-theme .more-menu-box .logoutIcon a.jq-logout-btn {
+  justify-content: flex-start !important;
+  width: 100% !important;
+  min-height: 46px !important;
+  margin: 0 !important;
+  padding: 8px 12px 8px 54px !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  text-align: left !important;
+}
+@keyframes onewl-menu-shine {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+@media (min-width: 768px) {
+  body.champagne-gold-theme .more-menu-bg .more-menu-box,
+  .champagne-gold-theme .more-menu-bg .more-menu-box,
+  body.champagne-gold-theme.theme-style .more-menu-box {
+    width: 360px !important;
+  }
+}
+.champagne-gold-theme .register-step .btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #fff349, #fed804) !important;
+  color: #000 !important;
+  border: 1px solid #fff6a8 !important;
+  border-radius: 12px 0 12px 0 !important;
+  box-shadow:
+    0 0 10px rgba(254, 216, 4, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),
+    inset 0 -2px 0 rgba(140, 104, 0, 0.35) !important;
+}
+.champagne-gold-theme .register-step .btn::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: -45%;
+  width: 35%;
+  height: 260%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.85),
+    transparent
+  );
+  transform: skewX(-25deg);
+  animation: register-btn-shine 2.4s linear infinite;
+  pointer-events: none;
+}
+@keyframes register-btn-shine {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+.champagne-gold-theme .game-list .game-menu .game-menu-current {
+  margin-top: 0 !important;
+}
+.champagne-gold-theme .game-list .game-menu .game-menu-current b {
+  margin-top: 0 !important;
+}
+.register-step ul {
+    border-radius: 10px;
+    border-top: 2px solid #ffe92f;
+    border-bottom: 2px solid #ffe92f;
+}
+.mobile .theme-style footer .nav-item:nth-of-type(3)::before {
+    border: #fed805 .3rem solid !important;
+}
+#onewl-insert-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+  width: min(980px, calc(100% - 80px)) !important;
+  margin: 14px auto !important;
+  padding: 0 !important;
+}
+#onewl-insert-wrapper .onewl-cta-button {
+  position: relative !important;
+  isolation: isolate !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 48px !important;
+  padding: 0 20px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+  box-shadow:
+    0 10px 22px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 2px rgba(254, 216, 4, 0.32) !important;
+}
+#onewl-insert-wrapper .onewl-cta-button:nth-child(3) {
+  grid-column: auto !important;
+}
+#onewl-insert-wrapper .onewl-cta-button::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: -120% !important;
+  z-index: 0 !important;
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent 0deg,
+      rgba(254, 216, 4, 0.12) 80deg,
+      #fed804 118deg,
+      #fff6a6 132deg,
+      #fed804 146deg,
+      rgba(254, 216, 4, 0.18) 180deg,
+      transparent 260deg,
+      transparent 360deg
+    ) !important;
+  animation: onewl-gold-border-spin 3.2s linear infinite !important;
+}
+#onewl-insert-wrapper .onewl-cta-button::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 5px !important;
+  z-index: 1 !important;
+  border-radius: inherit !important;
+  background:
+    linear-gradient(180deg, rgba(45, 45, 45, 0.98), rgba(16, 16, 16, 0.98)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -12px 26px rgba(0, 0, 0, 0.34) !important;
+}
+#onewl-insert-wrapper .onewl-cta-button span {
+  position: relative !important;
+  z-index: 2 !important;
+  color: #ffffff !important;
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.8),
+    0 0 12px rgba(254, 216, 4, 0.28) !important;
+}
+#onewl-insert-wrapper .onewl-cta-button:hover {
+  transform: translateY(-1px) !important;
+  box-shadow:
+    0 12px 26px rgba(0, 0, 0, 0.42),
+    0 0 18px rgba(254, 216, 4, 0.3),
+    inset 0 0 0 2px rgba(254, 216, 4, 0.48) !important;
+}
+@keyframes onewl-gold-border-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 560px) {
+  #onewl-insert-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 7px 8px !important;
+    width: calc(100% - 16px) !important;
+    margin: 8px auto !important;
+  }
+  #onewl-insert-wrapper .onewl-cta-button {
+    min-height: 34px !important;
+    padding: 0 10px !important;
+    font-size: 12px !important;
+    box-shadow:
+      0 4px 10px rgba(0, 0, 0, 0.32),
+      inset 0 0 0 1px rgba(254, 216, 4, 0.34) !important;
+  }
+  #onewl-insert-wrapper .onewl-cta-button::after {
+    inset: 3px !important;
+  }
+}
+.pc .champagne-gold-theme #footer {
+    background: #00000080 !important;
+    border-top: 1px solid #fed804;
+}
+#chat-widget-container {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: fixed !important;
+  right: 12px !important;
+  bottom: 92px !important;
+  z-index: 2147483647 !important;
+  pointer-events: auto !important;
+}
+#chat-widget-container #chat-widget-minimized {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+.livechat_button.bottom-button {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: fixed !important;
+  right: 12px !important;
+  bottom: 92px !important;
+  z-index: 2147483647 !important;
+}
+.mobile #chat-widget-container,
+.mobile .livechat_button.bottom-button {
+  right: 8px !important;
+  bottom: 5.4rem !important;
+}
+.onewl-deposit-wrapper {
+  position: relative !important;
+  margin: 0 auto 1rem !important;
+  padding: 14px 14px 18px !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.58) !important;
+  border: 1px solid rgba(254, 216, 4, 0.28) !important;
+  border-radius: 0 0 16px 16px !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 10px 28px rgba(0, 0, 0, 0.34) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+.onewl-deposit-wrapper > div:first-child,
+.onewl-deposit-wrapper .selectBank,
+.onewl-deposit-wrapper .bank-list {
+  position: relative !important;
+  z-index: 1 !important;
+}
+.onewl-deposit-wrapper > div:first-child {
+  margin: 0 0 14px !important;
+  padding: 12px 14px !important;
+  background: rgba(0, 0, 0, 0.42) !important;
+  border: 1px solid rgba(254, 216, 4, 0.16) !important;
+  border-radius: 12px !important;
+}
+.onewl-deposit-wrapper dt,
+.onewl-deposit-wrapper dd,
+.onewl-deposit-wrapper label,
+.onewl-deposit-wrapper .bank-item b,
+.onewl-deposit-wrapper .bank-item u {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85) !important;
+}
+.onewl-deposit-wrapper .bank-tabs {
+  gap: 8px !important;
+}
+.onewl-deposit-wrapper .bank-tab {
+  background: rgba(245, 245, 245, 0.92) !important;
+  border: 1px solid rgba(254, 216, 4, 0.18) !important;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.28) !important;
+}
+.onewl-deposit-wrapper .bank-tab.selected {
+  background: linear-gradient(to bottom, #ff7a18, #f04c00) !important;
+  border-color: rgba(254, 216, 4, 0.75) !important;
+}
+.onewl-deposit-wrapper .bank-list {
+  margin-top: 14px !important;
+  padding: 10px 14px !important;
+  background: rgba(0, 0, 0, 0.42) !important;
+  border: 1px solid rgba(254, 216, 4, 0.16) !important;
+  border-radius: 12px !important;
+}
+.onewl-deposit-wrapper .bank-item {
+  border-bottom-color: rgba(255, 255, 255, 0.22) !important;
+}
+.onewl-deposit-wrapper .bank-item i {
+  color: #48f28d !important;
+  text-shadow: 0 0 8px rgba(72, 242, 141, 0.38) !important;
+}
+.onewl-deposit-wrapper .default-amount,
+.onewl-deposit-wrapper .bank-status-list,
+.onewl-deposit-bottom-panel,
+#deposit .container .onewl-deposit-panel,
+#deposit .container .default-amount,
+#deposit .container .bank-status-list,
+body.champagne-gold-theme .default-amount,
+body.champagne-gold-theme .bank-status-list {
+  position: relative !important;
+  z-index: 1 !important;
+  margin: 14px 0 0 !important;
+  padding: 12px 14px !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.46) !important;
+  border: 1px solid rgba(254, 216, 4, 0.18) !important;
+  border-radius: 12px !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 6px 16px rgba(0, 0, 0, 0.28) !important;
+}
+.onewl-deposit-bottom-panel .default-amount,
+.onewl-deposit-bottom-panel .bank-status-list,
+#deposit .container .onewl-deposit-bottom-panel .default-amount,
+#deposit .container .onewl-deposit-bottom-panel .bank-status-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.onewl-deposit-wrapper .default-amount {
+  list-style: none !important;
+}
+.onewl-deposit-wrapper .default-amount .amount,
+.onewl-deposit-bottom-panel .default-amount .amount,
+#deposit .container .default-amount .amount,
+body.champagne-gold-theme .default-amount .amount {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin: 0 !important;
+}
+.onewl-deposit-wrapper .default-amount label,
+.onewl-deposit-wrapper .default-amount i,
+.onewl-deposit-wrapper .bank-status-list,
+.onewl-deposit-wrapper .bank-status-list dt,
+.onewl-deposit-bottom-panel label,
+.onewl-deposit-bottom-panel i,
+.onewl-deposit-bottom-panel dt,
+#deposit .container .default-amount label,
+#deposit .container .default-amount i,
+#deposit .container .bank-status-list,
+#deposit .container .bank-status-list dt {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85) !important;
+}
+.onewl-deposit-wrapper .default-amount .deposit-money,
+.onewl-deposit-bottom-panel .default-amount .deposit-money,
+#deposit .container .default-amount .deposit-money,
+body.champagne-gold-theme .default-amount .deposit-money {
+  flex: 1 !important;
+  min-width: 0 !important;
+  height: 42px !important;
+  padding: 0 12px !important;
+  box-sizing: border-box !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(254, 216, 4, 0.28) !important;
+  border-radius: 8px !important;
+  color: #111111 !important;
+  font-weight: 700 !important;
+}
+.onewl-deposit-bottom-panel .deposit-money {
+  background: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(254, 216, 4, 0.28) !important;
+  border-radius: 8px !important;
+  color: #111111 !important;
+  font-weight: 700 !important;
+}
+.onewl-deposit-wrapper .default-amount .deposit-money::placeholder,
+.onewl-deposit-bottom-panel .default-amount .deposit-money::placeholder,
+#deposit .container .default-amount .deposit-money::placeholder,
+body.champagne-gold-theme .default-amount .deposit-money::placeholder {
+  color: rgba(17, 17, 17, 0.55) !important;
+}
+body.champagne-gold-theme #deposit .default-amount .amount,
+body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount {
+  --deposit-label-width: 108px;
+  position: relative !important;
+  display: grid !important;
+  grid-template-columns: var(--deposit-label-width) minmax(0, 1fr) !important;
+  gap: 10px !important;
+  align-items: center !important;
+  min-height: 58px !important;
+  padding: 8px 10px !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #deposit .default-amount .amount label,
+body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount label {
+  grid-column: 1 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  color: #ffffff !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  line-height: 1.08 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85) !important;
+}
+body.champagne-gold-theme #deposit .default-amount .deposit-money,
+body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .deposit-money {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 42px !important;
+  min-height: 42px !important;
+  margin: 0 !important;
+  padding: 0 12px 0 92px !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  font-size: 16px !important;
+  line-height: normal !important;
+}
+body.champagne-gold-theme #deposit .default-amount .deposit-money::placeholder,
+body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .deposit-money::placeholder {
+  font-size: 16px !important;
+  line-height: normal !important;
+  text-align: left !important;
+}
+body.champagne-gold-theme #deposit .default-amount .amount > i,
+body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount > i {
+  position: absolute !important;
+  left: calc(var(--deposit-label-width) + 22px) !important;
+  top: 50% !important;
+  z-index: 2 !important;
+  width: 68px !important;
+  min-width: 68px !important;
+  max-width: 68px !important;
+  height: 28px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  transform: translateY(-50%) !important;
+  border: 1px solid rgba(111, 74, 0, 0.65) !important;
+  border-radius: 999px !important;
+  background:
+    linear-gradient(180deg, #fff36a 0%, #d29a16 54%, #8b5a06 100%) !important;
+  color: #ffffff !important;
+  font-size: 17px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 2px 5px rgba(0, 0, 0, 0.32) !important;
+  pointer-events: none !important;
+}
+.onewl-deposit-wrapper .deposit-banklist {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+.onewl-deposit-bottom-panel .deposit-banklist,
+#deposit .container .onewl-deposit-bottom-panel .deposit-banklist,
+#deposit .container .bank-status-list .deposit-banklist,
+body.champagne-gold-theme .bank-status-list .deposit-banklist {
+  margin: 14px 0 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  min-height: unset !important;
+}
+.onewl-deposit-wrapper .deposit-banklist dt {
+  margin: 0 0 10px !important;
+}
+.onewl-deposit-wrapper .deposit-banklist dd.bank {
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.onewl-deposit-bottom-panel .deposit-banklist dd.bank,
+#deposit .container .onewl-deposit-bottom-panel .deposit-banklist dd.bank,
+#deposit .container .bank-status-list .deposit-banklist dd.bank,
+body.champagne-gold-theme .bank-status-list .deposit-banklist dd.bank {
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.onewl-deposit-wrapper .submit.default-submit,
+.onewl-deposit-bottom-panel .submit.default-submit {
+  position: relative !important;
+  isolation: isolate !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 48px !important;
+  width: min(360px, 100%) !important;
+  max-width: 100% !important;
+  margin: 18px auto 0 !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(254, 216, 4, 0.78) !important;
+  border-radius: 12px 0 12px 0 !important;
+  background:
+    linear-gradient(180deg, rgba(42, 42, 42, 0.98), rgba(8, 8, 8, 0.98)) !important;
+  color: #fed804 !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0 !important;
+  text-shadow: 0 0 10px rgba(254, 216, 4, 0.38) !important;
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.34),
+    0 0 14px rgba(254, 216, 4, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -2px 0 rgba(103, 74, 0, 0.55) !important;
+}
+.onewl-deposit-wrapper .submit.default-submit::before,
+.onewl-deposit-bottom-panel .submit.default-submit::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -70% !important;
+  left: -40% !important;
+  z-index: -1 !important;
+  width: 32% !important;
+  height: 240% !important;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 246, 166, 0.86),
+      transparent
+    ) !important;
+  transform: skewX(-24deg) !important;
+  animation: onewl-submit-shine 2.6s linear infinite !important;
+}
+.onewl-deposit-wrapper .submit.default-submit:active,
+.onewl-deposit-bottom-panel .submit.default-submit:active {
+  transform: translateY(1px) !important;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.36),
+    inset 0 2px 8px rgba(0, 0, 0, 0.42) !important;
+}
+@keyframes onewl-submit-shine {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+@media (max-width: 560px) {
+  .onewl-deposit-wrapper {
+    padding: 10px 10px 14px !important;
+    border-radius: 0 0 12px 12px !important;
+  }
+  .onewl-deposit-wrapper > div:first-child {
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .onewl-deposit-wrapper .bank-list {
+    padding: 8px 10px !important;
+    margin-top: 10px !important;
+  }
+  .onewl-deposit-wrapper .default-amount,
+  .onewl-deposit-wrapper .bank-status-list,
+  .onewl-deposit-bottom-panel,
+  #deposit .container .onewl-deposit-panel {
+    margin-top: 10px !important;
+    padding: 10px !important;
+  }
+  .onewl-deposit-wrapper .default-amount .amount,
+  .onewl-deposit-bottom-panel .default-amount .amount {
+    gap: 8px !important;
+  }
+  .onewl-deposit-wrapper .default-amount .deposit-money,
+  .onewl-deposit-bottom-panel .default-amount .deposit-money {
+    height: 36px !important;
+    padding: 0 10px !important;
+  }
+  body.champagne-gold-theme #deposit .default-amount .amount,
+  body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount {
+    --deposit-label-width: 82px;
+    gap: 8px !important;
+    min-height: 54px !important;
+    padding: 7px 8px !important;
+  }
+  body.champagne-gold-theme #deposit .default-amount .amount label,
+  body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount label {
+    font-size: 14px !important;
+    line-height: 1.08 !important;
+  }
+  body.champagne-gold-theme #deposit .default-amount .deposit-money,
+  body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .deposit-money {
+    height: 38px !important;
+    min-height: 38px !important;
+    padding: 0 9px 0 70px !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+  }
+  body.champagne-gold-theme #deposit .default-amount .deposit-money::placeholder,
+  body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .deposit-money::placeholder {
+    font-size: 12px !important;
+    line-height: normal !important;
+  }
+  body.champagne-gold-theme #deposit .default-amount .amount > i,
+  body.champagne-gold-theme .onewl-deposit-bottom-panel .default-amount .amount > i {
+    left: calc(var(--deposit-label-width) + 18px) !important;
+    width: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    height: 24px !important;
+    padding: 0 !important;
+    font-size: 13px !important;
+  }
+  .onewl-deposit-wrapper .submit.default-submit,
+  .onewl-deposit-bottom-panel .submit.default-submit {
+    min-height: 40px !important;
+    margin-top: 12px !important;
+    font-size: 15px !important;
+  }
+}
+body.champagne-gold-theme #withdrawal {
+  padding-bottom: 7rem !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #withdrawal .container {
+  margin: 10px !important;
+  padding: 12px !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.58) !important;
+  border: 1px solid rgba(254, 216, 4, 0.22) !important;
+  border-radius: 14px !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 10px 24px rgba(0, 0, 0, 0.36) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+body.champagne-gold-theme #withdrawal .payment-list,
+body.champagne-gold-theme #withdrawal .container > ul,
+body.champagne-gold-theme #withdrawal .bank-status-list {
+  margin: 0 0 10px !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.42) !important;
+  border: 1px solid rgba(254, 216, 4, 0.16) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28) !important;
+}
+body.champagne-gold-theme #withdrawal .payment-item,
+body.champagne-gold-theme #withdrawal .withdrawableBalance,
+body.champagne-gold-theme #withdrawal .withdrawableAmount {
+  background: rgba(0, 0, 0, 0.34) !important;
+  border: 1px solid rgba(254, 216, 4, 0.14) !important;
+  border-radius: 10px !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableBalance,
+body.champagne-gold-theme #withdrawal .withdrawableAmount {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableAmount {
+  display: flex !important;
+  align-items: center !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableBalance label,
+body.champagne-gold-theme #withdrawal .withdrawableAmount label {
+  font-size: 13px !important;
+  line-height: 1.15 !important;
+}
+body.champagne-gold-theme #withdrawal .container label,
+body.champagne-gold-theme #withdrawal .container h3,
+body.champagne-gold-theme #withdrawal .container p,
+body.champagne-gold-theme #withdrawal .container b,
+body.champagne-gold-theme #withdrawal .container u,
+body.champagne-gold-theme #withdrawal .container i,
+body.champagne-gold-theme #withdrawal .bank-status-list,
+body.champagne-gold-theme #withdrawal .bank-status-list dt {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.86) !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableBalance p,
+body.champagne-gold-theme #withdrawal .withdrawableBalance p i,
+body.champagne-gold-theme #withdrawal .withdrawableBalance .all {
+  color: #fed804 !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableBalance p,
+body.champagne-gold-theme #withdrawal .withdrawableBalance p i,
+body.champagne-gold-theme #withdrawal .withdrawableBalance .all,
+body.champagne-gold-theme #withdrawal .withdrawableAmount input,
+body.champagne-gold-theme #withdrawal .withdrawableAmount > i {
+  font-size: 13px !important;
+  line-height: 1.15 !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableAmount > i {
+  position: static !important;
+  left: auto !important;
+  order: 2 !important;
+  margin-left: 8px !important;
+  margin-right: 6px !important;
+  white-space: nowrap !important;
+}
+body.champagne-gold-theme #withdrawal #operateAmount {
+  order: 3 !important;
+  display: block !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(254, 216, 4, 0.28) !important;
+  border-radius: 8px !important;
+  color: #111111 !important;
+  font-weight: 700 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  line-height: normal !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawableAmount label {
+  order: 1 !important;
+}
+body.champagne-gold-theme #withdrawal #operateAmount::placeholder {
+  color: rgba(17, 17, 17, 0.55) !important;
+  line-height: normal !important;
+}
+.pc body.champagne-gold-theme #withdrawal .withdrawableAmount {
+  min-height: 62px !important;
+  padding: 10px 18px !important;
+  gap: 12px !important;
+}
+.pc body.champagne-gold-theme #withdrawal .withdrawableAmount label {
+  min-width: 220px !important;
+  font-size: 18px !important;
+  line-height: 1.2 !important;
+}
+.pc body.champagne-gold-theme #withdrawal .withdrawableAmount > i {
+  margin-left: 0 !important;
+  margin-right: 8px !important;
+  font-size: 18px !important;
+  line-height: 42px !important;
+}
+.pc body.champagne-gold-theme #withdrawal #operateAmount {
+  height: 42px !important;
+  min-height: 42px !important;
+  padding: 0 14px !important;
+  font-size: 18px !important;
+  line-height: normal !important;
+  border-radius: 10px !important;
+}
+.pc body.champagne-gold-theme #withdrawal #operateAmount::placeholder {
+  font-size: 18px !important;
+  line-height: normal !important;
+}
+body.champagne-gold-theme #withdrawal .submit {
+  position: relative !important;
+  isolation: isolate !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 46px !important;
+  width: min(360px, 100%) !important;
+  max-width: 100% !important;
+  margin: 14px auto !important;
+  padding: 0 24px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(254, 216, 4, 0.78) !important;
+  border-radius: 12px 0 12px 0 !important;
+  background:
+    linear-gradient(180deg, rgba(42, 42, 42, 0.98), rgba(8, 8, 8, 0.98)) !important;
+  color: #fed804 !important;
+  font-size: 17px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  text-shadow: 0 0 10px rgba(254, 216, 4, 0.38) !important;
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.34),
+    0 0 14px rgba(254, 216, 4, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    inset 0 -2px 0 rgba(103, 74, 0, 0.55) !important;
+}
+body.champagne-gold-theme #withdrawal .submit::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -70% !important;
+  left: -45% !important;
+  z-index: -1 !important;
+  width: 32% !important;
+  height: 240% !important;
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 246, 166, 0.86),
+      transparent
+    ) !important;
+  transform: skewX(-24deg) !important;
+  animation: onewl-submit-shine 2.6s linear infinite !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawal-banklist,
+body.champagne-gold-theme #withdrawal .bank-status-list .withdrawal-banklist {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  min-height: unset !important;
+}
+body.champagne-gold-theme #withdrawal .withdrawal-banklist dd.bank {
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+body.champagne-gold-theme .deposit-banklist dd.bank,
+body.champagne-gold-theme .withdrawal-banklist dd.bank,
+body.champagne-gold-theme .bank-status-list dd.bank {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+body.champagne-gold-theme .deposit-banklist dd.bank img,
+body.champagne-gold-theme .withdrawal-banklist dd.bank img,
+body.champagne-gold-theme .bank-status-list dd.bank img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+body.champagne-gold-theme .deposit-banklist,
+body.champagne-gold-theme .withdrawal-banklist {
+  gap: 8px !important;
+}
+@media (max-width: 560px) {
+  body.champagne-gold-theme #withdrawal .container {
+    margin: 8px !important;
+    padding: 10px !important;
+    border-radius: 12px !important;
+  }
+  body.champagne-gold-theme #withdrawal .payment-list,
+  body.champagne-gold-theme #withdrawal .container > ul,
+  body.champagne-gold-theme #withdrawal .bank-status-list {
+    margin-bottom: 8px !important;
+    padding: 9px !important;
+    border-radius: 10px !important;
+  }
+  body.champagne-gold-theme #withdrawal .submit {
+    min-height: 40px !important;
+    margin: 12px auto !important;
+    font-size: 15px !important;
+  }
+  body.champagne-gold-theme #withdrawal .withdrawableBalance label,
+  body.champagne-gold-theme #withdrawal .withdrawableAmount label,
+  body.champagne-gold-theme #withdrawal .withdrawableBalance p,
+  body.champagne-gold-theme #withdrawal .withdrawableBalance p i,
+  body.champagne-gold-theme #withdrawal .withdrawableBalance .all,
+  body.champagne-gold-theme #withdrawal .withdrawableAmount input,
+  body.champagne-gold-theme #withdrawal .withdrawableAmount > i {
+    font-size: 11px !important;
+    line-height: 1.1 !important;
+  }
+  body.champagne-gold-theme #withdrawal .withdrawableBalance,
+  body.champagne-gold-theme #withdrawal .withdrawableAmount {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  body.champagne-gold-theme #withdrawal .withdrawableAmount > i {
+    left: auto !important;
+    margin-left: 6px !important;
+    margin-right: 5px !important;
+  }
+  body.champagne-gold-theme #withdrawal #operateAmount {
+    line-height: normal !important;
+  }
+  body.champagne-gold-theme #withdrawal #operateAmount::placeholder {
+    line-height: normal !important;
+  }
+}
+body.champagne-gold-theme #mine {
+  padding: 10px 10px 7rem !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #mine .mine-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+body.champagne-gold-theme #mine .mine-top,
+body.champagne-gold-theme #mine .mine-common,
+body.champagne-gold-theme #mine .mine-menus {
+  position: relative !important;
+  z-index: 1 !important;
+  margin: 0 0 10px !important;
+  padding: 12px !important;
+  box-sizing: border-box !important;
+  background: rgba(0, 0, 0, 0.56) !important;
+  border: 1px solid rgba(254, 216, 4, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 8px 20px rgba(0, 0, 0, 0.34) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+}
+body.champagne-gold-theme #mine .mine-top {
+  min-height: auto !important;
+  overflow: visible !important;
+  background-image: none !important;
+}
+body.champagne-gold-theme #mine .mine-top .mine-info {
+  height: auto !important;
+  min-height: 84px !important;
+  margin: 0 0 12px !important;
+  gap: 12px !important;
+}
+body.champagne-gold-theme #mine .mine-top .mine-info .mine-head {
+  width: 58px !important;
+  height: 58px !important;
+  min-width: 58px !important;
+  margin: 0 !important;
+}
+body.champagne-gold-theme #mine .mine-top .mine-info .mine-info-name h3 {
+  font-size: 24px !important;
+  line-height: 1.1 !important;
+  margin: 0 0 8px !important;
+}
+body.champagne-gold-theme #mine .mine-top .mine-info .mine-info-name p {
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+}
+body.champagne-gold-theme #mine .mine-top .mine-info .about {
+  width: 28px !important;
+  min-width: 28px !important;
+  height: 28px !important;
+  margin: 0 !important;
+  filter: brightness(0) invert(1) !important;
+}
+body.champagne-gold-theme #mine .mine-statistics-container {
+  position: static !important;
+  width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+  display: block !important;
+}
+body.champagne-gold-theme #mine .mine-statistics {
+  transform: none !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 6px !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 6px !important;
+  background: rgba(254, 216, 4, 0.12) !important;
+  border: 1px solid rgba(254, 216, 4, 0.18) !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+}
+body.champagne-gold-theme #mine .mine-statistics li,
+body.champagne-gold-theme #mine .mine-statistics li:first-child {
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 74px !important;
+  padding: 8px 6px !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #mine .mine-common dd,
+body.champagne-gold-theme #mine .mine-menus li,
+body.champagne-gold-theme #mine .mine-statistics li {
+  background: rgba(0, 0, 0, 0.32) !important;
+  border: 1px solid rgba(254, 216, 4, 0.14) !important;
+  border-radius: 10px !important;
+}
+body.champagne-gold-theme #mine .mine-common {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+  align-items: stretch !important;
+}
+body.champagne-gold-theme #mine .mine-common dd {
+  flex-basis: auto !important;
+  min-height: 88px !important;
+  margin: 0 !important;
+  padding: 10px 8px !important;
+  box-sizing: border-box !important;
+}
+body.champagne-gold-theme #mine .mine-common dd img {
+  width: 34px !important;
+  height: 34px !important;
+  margin: 0 0 8px !important;
+}
+body.champagne-gold-theme #mine .mine-common dd span {
+  font-size: 15px !important;
+  line-height: 1.18 !important;
+}
+body.champagne-gold-theme #mine .mine-menus ul {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body.champagne-gold-theme #mine .mine-menus li {
+  min-height: 58px !important;
+  height: auto !important;
+  padding: 0 12px !important;
+  box-sizing: border-box !important;
+  border-bottom: 0 !important;
+}
+body.champagne-gold-theme #mine .mine-menus li img {
+  width: 26px !important;
+  min-width: 26px !important;
+  height: 26px !important;
+  margin: 0 12px 0 0 !important;
+  filter: brightness(0) invert(1) opacity(0.86) !important;
+}
+body.champagne-gold-theme #mine .mine-menus li b {
+  min-width: max-content !important;
+  max-width: 52% !important;
+  margin: 0 10px 0 0 !important;
+  font-size: 15px !important;
+  line-height: 1.15 !important;
+}
+body.champagne-gold-theme #mine .mine-menus li i {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+body.champagne-gold-theme #mine .mine-menus li::after {
+  opacity: 1 !important;
+  filter: brightness(0) invert(1) !important;
+}
+body.champagne-gold-theme #mine .mine-info-name h3,
+body.champagne-gold-theme #mine .mine-info-name p,
+body.champagne-gold-theme #mine .mine-info-name span,
+body.champagne-gold-theme #mine .mine-common dd span,
+body.champagne-gold-theme #mine .mine-menus li b,
+body.champagne-gold-theme #mine .mine-menus li i,
+body.champagne-gold-theme #mine .mine-statistics li b,
+body.champagne-gold-theme #mine .mine-statistics li span,
+body.champagne-gold-theme #mine .mine-statistics li em,
+body.champagne-gold-theme #mine .mine-statistics li i {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85) !important;
+}
+body.champagne-gold-theme #mine .myPurse span,
+body.champagne-gold-theme #mine .myPurse em,
+body.champagne-gold-theme #mine .myPurse i {
+  color: #fed804 !important;
+}
+@media (max-width: 560px) {
+  body.champagne-gold-theme #mine {
+    padding: 8px 8px 7rem !important;
+  }
+  body.champagne-gold-theme #mine .mine-top,
+  body.champagne-gold-theme #mine .mine-common,
+  body.champagne-gold-theme #mine .mine-menus {
+    margin: 0 0 8px !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+  body.champagne-gold-theme #mine .mine-top .mine-info {
+    min-height: 74px !important;
+    margin-bottom: 10px !important;
+  }
+  body.champagne-gold-theme #mine .mine-top .mine-info .mine-head {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+  }
+  body.champagne-gold-theme #mine .mine-top .mine-info .mine-info-name h3 {
+    font-size: 20px !important;
+  }
+  body.champagne-gold-theme #mine .mine-top .mine-info .mine-info-name p {
+    font-size: 14px !important;
+  }
+  body.champagne-gold-theme #mine .mine-statistics {
+    gap: 5px !important;
+    padding: 5px !important;
+  }
+  body.champagne-gold-theme #mine .mine-statistics li,
+  body.champagne-gold-theme #mine .mine-statistics li:first-child {
+    min-height: 62px !important;
+    padding: 6px 4px !important;
+  }
+  body.champagne-gold-theme #mine .mine-statistics li img {
+    width: 28px !important;
+    height: 24px !important;
+    margin-bottom: 5px !important;
+  }
+  body.champagne-gold-theme #mine .mine-common {
+    gap: 6px !important;
+  }
+  body.champagne-gold-theme #mine .mine-common dd {
+    min-height: 78px !important;
+  }
+  body.champagne-gold-theme #mine .mine-menus li {
+    min-height: 52px !important;
+    padding: 0 10px !important;
+  }
+}
+
+/* Home v6. The host renders mobile and desktop with separate html classes. */
+@font-face {
+  font-family: "BT Geist";
+  src: url("https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFWNOITd.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "BT Barlow";
+  src: url("https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuYMBYro.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+html:is(.mobile,.pc) body.bt6-home {
+  --bt-paper: #fff8e9;
+  --bt-muted: #c9b99a;
+  --bt-amber: #fdc73d;
+  --bt-line: #4c3a21;
+  --bt-surface: linear-gradient(165deg, #34291b 0%, #211b13 39%, #17130d 74%, #100e0a 100%);
+  --bt-metal: linear-gradient(168deg, #ffdf60 0%, #fdc73d 40%, #ffb21e 71%, #ffa204 100%);
+  --bt-gutter: clamp(12px, 3.4vw, 24px);
+  --bt-width: 1160px;
+  --bt-frame: min(var(--bt-width), calc(100% - var(--bt-gutter) * 2));
+  --bt-jewels: url("https://cdn.cloudnes.space/sm/bandartoto-v6/lobby-icons-24f2978a39a5.webp");
+  --bt-font: "BT Geist", system-ui, sans-serif;
+  --bt-display: "BT Barlow", "Arial Narrow", sans-serif;
+  font-family: var(--bt-font) !important;
+  color: var(--bt-paper) !important;
+  background: radial-gradient(ellipse 80% 490px at 47% 0%, #332414 0%, #1b150d 48%, transparent 100%),
+    linear-gradient(115deg, #0d0a03, #15110a 50%, #0e0b06 100%) !important;
+  min-height: 100vh;
+}
+body.bt6-home #app {
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+body.bt6-home #index {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  position: relative !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  min-height: 80vh;
+  padding: 0 0 30px !important;
+  background: transparent !important;
+  color: var(--bt-paper);
+}
+body.bt6-home #index :is(.tabs,.user,.swiper-box,.notice,.game-list,.game-menu,.game-menu-item,.game-item),
+body.bt6-home :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-search,.bt-query,.bt-spotlight,.bt-gold-button,footer.index-footer,.nav-item) {
+  box-sizing: border-box !important;
+}
+body.bt6-home #index :is(input,button,.game-menu-item,.game-item h3,.tabs,.user,.notice) {
+  font-family: var(--bt-font) !important;
+}
+body.bt6-home :is(button,a,input,[tabindex]):focus-visible {
+  outline: 2px solid #ffe49b !important;
+  outline-offset: 2px;
+}
+body.bt6-home [hidden],
+body:not(.bt6-home) #index :is(.bt-spotlight,.bt-quick-head,.bt-catalog-head,.bt-results,.bt-empty) {
+  display: none !important;
+}
+
+/* Header and original guest controls. The logged-in host supplies its own account details. */
+body.bt6-home #index > .tabs {
+  position: relative !important;
+  inset: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 13px;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 max(var(--bt-gutter), calc((100% - var(--bt-width)) / 2)) !important;
+  border: 0 !important;
+  border-bottom: 1px solid #453318 !important;
+  background: radial-gradient(ellipse at 22% -80%, #5b4020 0%, transparent 56%), linear-gradient(180deg, #261e12, #15120d 73%, #141009) !important;
+  box-shadow: inset 0 1px #76603942, 0 4px 20px #0004 !important;
+  overflow: visible !important;
+  z-index: 3 !important;
+}
+body.bt6-home #index .tabs:not(.isLogin) { height: 51px !important; }
+body.bt6-home #index .tabs .logo-box {
+  flex: 0 0 auto !important;
+  min-width: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  position: static !important;
+  width: auto !important;
+  height: 100% !important;
+  margin: 0 auto 0 0 !important;
+  padding: 0 !important;
+}
+body.bt6-home #index .tabs .logo-box .logo {
+  display: block !important;
+  position: static !important;
+  width: 133px !important;
+  height: 37px !important;
+  max-width: 42vw !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+}
+body.bt6-home #index .tabs :is(.tab-forget,.bookmark,[data-href="#/register"]) {
+  box-sizing: border-box !important;
+  flex: 0 0 auto !important;
+  position: static !important;
+  inset: auto !important;
+  float: none !important;
+  transform: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 32px !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #dfd2ba !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  line-height: 1.15 !important;
+  white-space: nowrap;
+  background: transparent !important;
+  border: 0 !important;
+}
+body.bt6-home #index .tabs .tab-forget { order: 1; }
+body.bt6-home #index .tabs .tab-forget::before,
+body.bt6-home #index .tabs .tab-forget span::before { content: none !important; }
+body.bt6-home #index .tabs .tab-forget span {
+  color: #dcccb0 !important;
+  font: inherit !important;
+  padding: 5px 0 !important;
+  background: none !important;
+}
+body.bt6-home #index .tabs .tab[data-href="#/register"] {
+  order: 2;
+  min-width: 67px !important;
+  padding: 0 13px !important;
+  border: 1px solid #946d34 !important;
+  border-radius: 8px !important;
+  color: #ffe6aa !important;
+  background: linear-gradient(160deg, #5b4324 0%, #302414 50%, #241c10 100%) !important;
+  box-shadow: inset 0 1px #f2cc8036, 0 2px 5px #0007 !important;
+}
+body.bt6-home #index .tabs .tab[data-href="#/register"] b {
+  color: #ffe6aa !important;
+  -webkit-text-fill-color: currentColor !important;
+  font-size: 12px !important;
+}
+body.bt6-home #index .tabs .tab[data-href="#/register"] img,
+body.bt6-home #index .tabs .tab[data-href="#/register"]::before,
+body.bt6-home #index .user .loginBtn::before { display: none !important; }
+body.bt6-home #index > .user {
+  position: relative !important;
+  inset: auto !important;
+  z-index: 3 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  width: 100% !important;
+  height: 49px !important;
+  margin: 0 !important;
+  padding: 4px var(--bt-gutter) 8px !important;
+  border: 0 !important;
+  border-bottom: 1px solid #4a371b99 !important;
+  background: linear-gradient(180deg, #19150d, #1c160d 52%, #15110a) !important;
+  overflow: visible !important;
+}
+body.bt6-home #index .user :is(.username,.password) {
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  height: 34px !important;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #56442c !important;
+  border-radius: 7px !important;
+  background: linear-gradient(180deg,#0f0d09, #211c14) !important;
+  box-shadow: inset 0 2px 4px #0008, 0 1px #ffe5a30e;
+}
+body.bt6-home #index .user :is(.username,.password)::before { content: none !important; }
+body.bt6-home #index .user input, body.bt6-home .bt-query {
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
+  border: 0 !important;
+  border-radius: inherit;
+  color: var(--bt-paper) !important;
+  background: transparent !important;
+  font: 500 12px var(--bt-font) !important;
+  text-align: left !important;
+  box-shadow: none !important;
+}
+body.bt6-home #index input::placeholder { color: #cbbca4 !important; opacity: 1; }
+body.bt6-home #index :is(.bt-gold-button,.user .loginBtn) {
+  display: inline-flex !important;
+  position: relative !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  gap: 10px;
+  box-sizing: border-box;
+  min-width: 66px !important;
+  height: 34px !important;
+  margin: 0 !important;
+  padding: 0 14px !important;
+  border: 1px solid #ffdc75 !important;
+  border-bottom-color: #cc7a0d !important;
+  border-radius: 7px !important;
+  background: var(--bt-metal) !important;
+  box-shadow: inset 0 1px #fff5b9ad, inset 0 -2px 2px #ac62012b, 0 2px 0 #814500, 0 4px 14px #ffae151c !important;
+  color: #291905 !important;
+  -webkit-text-fill-color: currentColor !important;
+  font: 800 12px/1 var(--bt-font) !important;
+  cursor: pointer;
+}
+body.bt6-home #index :is(.bt-gold-button,.user .loginBtn):active { transform: translateY(1px); }
+
+/* Loaded native promotions use the whole frame. A compact catalog link fills in while images are unavailable. */
+body.bt6-home #index > .swiper-box {
+  position: relative !important;
+  isolation: isolate;
+  width: var(--bt-frame) !important;
+  height: 77px !important;
+  margin: 14px auto 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid #96642f !important;
+  border-top-color: #b58648 !important;
+  border-radius: 14px !important;
+  background: #221609 !important;
+  box-shadow: 0 9px 25px #0006, 0 1px 1px #000a, inset 0 0 0 1px #ffd58f45 !important;
+}
+body.bt6-home #index .swiper-box > .swiper {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: inherit !important;
+  z-index: 1;
+}
+html:is(.pc,.mobile) body.bt6-home #index > .swiper-box[data-bt-banner] { height: var(--bt-frame-height) !important; }
+body.bt6-home #index .swiper-box[data-bt-banner] > .swiper {
+  inset: 0 auto auto 0 !important;
+  width: var(--bt-slide-width) !important;
+  max-width: none !important;
+  max-height: none !important;
+  height: var(--bt-slide-height) !important;
+  transform: scale(var(--bt-slide-scale,1)) !important;
+  transform-origin: top left !important;
+}
+body.bt6-home #index .swiper-box:not([data-bt-banner]) > .swiper { visibility: hidden !important; pointer-events: none; }
+body.bt6-home #index .swiper-item img { height: 100%; width: 100%; object-fit: contain; }
+body.bt6-home .bt-spotlight {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px clamp(13px, 4vw, 34px);
+  background: radial-gradient(ellipse at 83% 0%, #63451f66, transparent 60%),
+    linear-gradient(112deg, #392816, #21180f 55%, #2c2011);
+  box-shadow: inset 0 1px #ffdb8d35;
+}
+body.bt6-home .bt-spot-content {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 4px 12px;
+  width: 100%;
+}
+body.bt6-home #index .bt-spot-title {
+  margin: 0 !important;
+  color: #fff4dc !important;
+  font: 700 clamp(22px, 5.8vw, 32px)/1 var(--bt-display) !important;
+}
+body.bt6-home .bt-spot-title em { color: #ffd263; font-style: normal; }
+body.bt6-home .bt-spot-count { grid-area: 2/1; font: 500 11px/1.35 var(--bt-font); color: #edddc3; }
+body.bt6-home #index .bt-explore { grid-area: 1/2/3/3; }
+body.bt6-home .bt-arrow { font: 700 21px/.7 system-ui; margin-top: -2px; }
+body.bt6-home #index > .notice {
+  min-height: 0 !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  width: var(--bt-frame) !important;
+  height: 31px !important;
+  margin: 7px auto 0 !important;
+  padding: 0 11px !important;
+  gap: 10px;
+  overflow: hidden !important;
+  border: 1px solid #49381e !important;
+  border-radius: 7px !important;
+  background: linear-gradient(105deg, #382b17, #211a0f 28%, #19160f 85%, #282013) !important;
+  box-shadow: inset 0 1px #ffe5a415;
+  color: #e6d4b2 !important;
+}
+body.bt6-home #index > .notice::before {
+  min-width: 0 !important;
+  filter: none !important;
+  content: "i" !important;
+  position: static !important;
+  flex: 0 0 14px;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0 !important;
+  border-radius: 50%;
+  background: var(--bt-metal) !important;
+  color: #35230c;
+  font: 800 11px/14px Georgia, serif;
+  text-align: center;
+}
+body.bt6-home #index .notice .scrollText { flex: 1; min-width: 0; margin: 0 !important; overflow: hidden; }
+body.bt6-home #index .notice :is(ul,li,span) { color: #edddc2 !important; font: 500 11px/28px var(--bt-font) !important; }
+
+/* Four individual enamel tones echo the shortcut illustrations. */
+body.bt6-home :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-quick-actions) { display: flex; align-items: center; justify-content: space-between; }
+body.bt6-home .bt-quick-head { width: var(--bt-frame); margin: 14px auto 8px; gap: 12px; }
+body.bt6-home #index .bt-small-heading { font: 700 14px/1.2 var(--bt-font); letter-spacing: -.025em; color: var(--bt-paper); margin: 0; }
+body.bt6-home .bt-quick-actions { gap: 14px; }
+body.bt6-home :is(.bt-official,.bt-help-toggle) {
+  padding: 3px 0;
+  border: 0;
+  background: transparent;
+  color: #efc779;
+  font: 600 11px/1.3 var(--bt-font);
+  text-decoration: none;
+  cursor: pointer;
+}
+body.bt6-home #index #onewl-insert-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+  width: var(--bt-frame) !important;
+  gap: 7px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+body.bt6-home #index #onewl-insert-wrapper a {
+  box-sizing: border-box !important;
+  --bt-aura: #ba720c;
+  --bt-rim: #72532b;
+  --bt-tint: #332415;
+  position: relative !important;
+  isolation: isolate !important;
+  display: flex !important;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 0;
+  min-height: 72px !important;
+  padding: 3px 2px 7px !important;
+  border: 1px solid var(--bt-rim) !important;
+  border-radius: 10px !important;
+  background: radial-gradient(ellipse at 50% -25%, var(--bt-aura) -40%, transparent 75%), linear-gradient(155deg,var(--bt-tint) 0%, #211a14 54%, #14110e 100%) !important;
+  box-shadow: inset 0 1px #fff2cb29, inset 0 -2px 4px #0005, 0 3px 6px #0005 !important;
+  color: #ffefd9 !important;
+  text-decoration: none !important;
+  text-align: center;
+  text-transform: none !important;
+  overflow: hidden;
+}
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(2) { --bt-aura:#2679a7; --bt-rim:#3b5964; --bt-tint:#182a32; }
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(3) { --bt-aura:#8549a3; --bt-rim:#634568; --bt-tint:#322236; }
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(4) { --bt-aura:#ae5130; --bt-rim:#704b39; --bt-tint:#35241d; }
+body.bt6-home #index #onewl-insert-wrapper a::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: -48px -17px auto auto !important;
+  width: 70px; height: 70px;
+  border: 1px solid #ffdeaa17;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #ffe9c607, 0 0 0 11px #ffe9c607;
+  background: none !important;
+  animation: none !important;
+  pointer-events: none;
+}
+body.bt6-home #index #onewl-insert-wrapper a::after { content: none !important; }
+body.bt6-home #index #onewl-insert-wrapper .bt-short-label {
+  position: relative !important;
+  z-index: 1;
+  padding: 0 !important;
+  color: #fff2df !important;
+  font: 700 clamp(9px, 2.65vw, 12px)/1.1 var(--bt-font) !important;
+  text-transform: none !important;
+  text-shadow: 0 1px 3px #000a;
+}
+body.bt6-home [data-bt-jewel] {
+  display: block !important;
+  background-image: var(--bt-jewels) !important;
+  background-size: 400% 400% !important;
+  background-position: var(--bt-jx) var(--bt-jy) !important;
+  background-repeat: no-repeat !important;
+}
+body.bt6-home .bt-short-jewel { position: relative; width: 38px; height: 38px; flex: 0 0 auto; filter: drop-shadow(0 3px 3px #0009); }
+
+/* The platform controls which panel is active. Its children retain their own handlers. */
+body.bt6-home #index > .game-list {
+  position: static !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+  width: var(--bt-frame) !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  height: auto !important;
+  margin: 21px auto 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  background: none !important;
+  scroll-margin-top: 12px;
+}
+body.bt6-home .bt-catalog-head { gap: 12px; margin-bottom: 11px; }
+body.bt6-home #index .bt-catalog-title {
+  margin: 0;
+  color: #fff4de;
+  font: 700 28px/.98 var(--bt-display);
+  letter-spacing: -.018em;
+}
+body.bt6-home .bt-search {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: clamp(103px,29vw,186px);
+  height: 32px;
+  border: 1px solid #58462b;
+  border-radius: 8px;
+  background: linear-gradient(180deg,#15120d,#241d13);
+  box-shadow: inset 0 2px 4px #0005, 0 1px #ffe3ae0b;
+}
+body.bt6-home .bt-search::before, body.bt6-home .bt-search::after {
+  content: ""; position: absolute; pointer-events: none; box-sizing: border-box;
+}
+body.bt6-home .bt-search::before { left: 10px; top: 9px; width: 10px; height: 10px; border: 1.5px solid #e1c89d; border-radius: 50%; }
+body.bt6-home .bt-search::after { left: 18px; top: 19px; width: 5px; height: 1.5px; background: #e1c89d; transform: rotate(46deg); }
+body.bt6-home #index .bt-query { padding: 0 6px 0 30px !important; font-size: 11px !important; }
+body.bt6-home #index .game-list :is(.game-menus,.game-menu,.game-items) {
+  position: static !important;
+  inset: auto !important;
+  flex: none !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  transform: none !important;
+}
+body.bt6-home #index .game-list .game-menus { display: block !important; overflow: visible !important; }
+body.bt6-home #index .game-menus .game-menu {
+  display: grid !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: minmax(46px, 1fr) !important;
+  align-items: stretch !important;
+  gap: 4px !important;
+  padding: 2px 1px 4px !important;
+  overflow: auto hidden !important;
+  scrollbar-width: thin;
+  scrollbar-color: #805b29 transparent;
+}
+body.bt6-home #index .game-menu > p { display: none !important; }
+body.bt6-home #index .game-list .game-menu .game-menu-item {
+  min-height: 0 !important;
+  display: flex !important;
+  position: relative !important;
+  flex-flow: column nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2px !important;
+  width: 100% !important;
+  height: 59px !important;
+  margin: 0 !important;
+  padding: 2px !important;
+  border: 1px solid #4a3b29 !important;
+  border-radius: 9px !important;
+  background: radial-gradient(ellipse at 45% -20%,#5c492f66,transparent 73%), var(--bt-surface) !important;
+  box-shadow: inset 0 1px #fff1cf15, 0 2px 3px #0007 !important;
+  cursor: pointer;
+  overflow: hidden !important;
+}
+body.bt6-home #index .game-list .game-menu .game-menu-current {
+  border-color: #c99534 !important;
+  border-top-color: #ffe184 !important;
+  background: radial-gradient(ellipse at 54% 7%,#a56a19a1 0%,transparent 80%), linear-gradient(160deg,#614421,#3c2b14 55%,#291c0c) !important;
+  box-shadow: inset 0 1px #ffdc7e75, inset 0 -2px #f4a71e90, 0 2px 5px #0008 !important;
+}
+body.bt6-home #index .game-menu .game-menu-item::before,
+body.bt6-home #index .game-menu .game-menu-item::after,
+body.bt6-home #index .game-menu .game-menu-item b::before,
+body.bt6-home #index .game-menu .game-menu-item b::after { content: none !important; }
+body.bt6-home #index .game-menu .game-menu-item b[data-bt-jewel],
+html:is(.mobile,.pc) body.bt6-home footer.index-footer .nav-item[data-lang] .icon[data-bt-jewel] {
+  position: static !important;
+  inset: auto !important;
+  flex: 0 0 auto !important;
+  width: 31px !important;
+  height: 31px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  transform: none !important;
+  background-color: transparent !important;
+  background-image: var(--bt-jewels) !important;
+  background-size: 400% 400% !important;
+  background-position: var(--bt-jx) var(--bt-jy) !important;
+  filter: drop-shadow(0 2px 2px #0009) !important;
+}
+body.bt6-home #index .game-list .game-menu .game-menu-item i {
+  position: static !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  color: #e4d4b9 !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+  white-space: normal !important;
+  text-align: center;
+  text-transform: none !important;
+}
+body.bt6-home #index .game-menu-item i::after {
+  content: attr(data-bt-label);
+  display: block;
+  font: 600 9px/1.05 var(--bt-font);
+}
+body.bt6-home #index .game-menu-current i::after { color: #ffe08a; }
+body.bt6-home .bt-results { margin: 11px 1px 8px; gap: 14px; }
+body.bt6-home #index .bt-collection {
+  display: flex; align-items: center; gap: 6px;
+  color: #f8e7c9; margin: 0; font: 700 14px/1.2 var(--bt-font);
+}
+body.bt6-home .bt-collection::before {
+  content: ""; width: 3px; height: 13px; background: var(--bt-metal); border-radius: 3px;
+}
+body.bt6-home .bt-result-count { color: var(--bt-muted); font: 500 11px/1.3 var(--bt-font); }
+body.bt6-home #index .game-list .game-items { display: block !important; overflow: visible !important; }
+body.bt6-home #index .game-items[aria-busy="true"] { opacity: .45; }
+body.bt6-home #index .game-items > .game-category:not(.game-category-current) { display: none !important; }
+body.bt6-home #index .game-items > .game-category.game-category-current {
+  display: grid !important;
+  grid-template-columns: repeat(3,minmax(0,1fr)) !important;
+  gap: 9px 7px !important;
+  width: 100% !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+}
+body.bt6-home #index .game-items .game-category > .game-item {
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #58432a !important;
+  border-top-color: #82623c !important;
+  border-radius: 11px !important;
+  background: var(--bt-surface) !important;
+  color: var(--bt-paper) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 9px #0006, inset 0 1px #ffe8b147 !important;
+  cursor: pointer;
+}
+body.bt6-home #index .game-items .game-item p:first-child {
+  display: grid !important;
+  place-items: center;
+  position: relative !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1.12;
+  flex: 0 0 auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border-radius: 0 !important;
+  background: radial-gradient(ellipse at 50% 20%,#553b21,#211a12 75%) !important;
+}
+body.bt6-home #index .game-item p:first-child::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg,#fff4ce12 0%, transparent 16%, transparent 76%,#15100855);
+}
+body.bt6-home #index .game-items .game-item p img {
+  display: block !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  transform: none !important;
+}
+/* Display native artwork until the corresponding Customize replacement decodes successfully. */
+body.bt6-home #index .game-item[data-nodename] p img[alt] { content: var(--bt-loaded-art, normal) !important; }
+body.bt6-home #index .game-items .game-item h3 {
+  display: block !important;
+  position: static !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 8px 7px 9px !important;
+  border: 0 !important;
+  border-top: 1px solid #b78c4d4a !important;
+  background: linear-gradient(165deg,#3a2c1b 0%,#241c12 50%,#19150f 100%) !important;
+  color: #fff2d9 !important;
+  font: 700 clamp(10px,2.8vw,13px)/1.15 var(--bt-font) !important;
+  text-align: left !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+body.bt6-home #index .game-items .game-category > .game-item[data-bt-filtered] { display: none !important; }
+body.bt6-home #index .bt-empty { padding: 18px; text-align: center; color: var(--bt-muted); font: 500 13px var(--bt-font); }
+body.bt6-home #index #articlerule { box-sizing: border-box; width: var(--bt-frame); max-width: var(--bt-width); margin: 24px auto 42px !important; }
+
+/* Reuse native navigation targets, including the central promotion action on mobile. */
+html:is(.mobile,.pc) body.bt6-home footer.index-footer {
+  box-sizing: border-box;
+  isolation: isolate;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: stretch !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #765830 !important;
+  border-bottom: 0 !important;
+  border-radius: 16px 16px 0 0 !important;
+  background: radial-gradient(ellipse at 50% -20%,#5d431c70,transparent 65%), linear-gradient(180deg,#33281a 0%,#221b11 35%,#15120d 80%,#100e09 100%) !important;
+  box-shadow: inset 0 1px #ffe1a52b, 0 -5px 16px #0007 !important;
+  overflow: visible !important;
+}
+body.bt6-home footer.index-footer .nav-item {
+  flex: 1 1 0;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 3px;
+  min-width: 0;
+  height: 54px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+body.bt6-home footer.index-footer .nav-item::before,
+body.bt6-home footer.index-footer .nav-item::after,
+body.bt6-home footer.index-footer .icon::before,
+body.bt6-home footer.index-footer .icon::after { content: none !important; }
+body.bt6-home footer.index-footer .nav-item h3 {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  color: #dfcfb2 !important;
+  font: 550 10px/1.1 var(--bt-font) !important;
+  transform: none !important;
+}
+body.bt6-home footer.index-footer .nav-item-active h3 { color: #ffcf52 !important; font-weight: 750 !important; }
+html.mobile body.bt6-home footer.index-footer {
+  position: fixed !important;
+  z-index: 12 !important;
+  inset: auto 0 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-bottom: env(safe-area-inset-bottom,0px) !important;
+}
+html.mobile body.bt6-home footer.index-footer .nav-item[data-lang="activity"] .icon[data-bt-jewel] {
+  position: relative !important;
+  z-index: 1;
+  width: 42px !important;
+  height: 42px !important;
+  margin-top: -12px !important;
+  filter: drop-shadow(0 0 5px #ffab217d) drop-shadow(0 2px 3px #000) !important;
+}
+html.mobile body.bt6-home footer.index-footer .nav-item[data-lang="activity"]::before {
+  content: "" !important;
+  position: absolute !important;
+  z-index: 0;
+  inset: -9px auto auto 50% !important;
+  transform: translateX(-50%) !important;
+  box-sizing: border-box;
+  width: 53px !important;
+  height: 43px !important;
+  margin: 0 !important;
+  border: 1px solid #a77831 !important;
+  border-bottom: 0 !important;
+  border-radius: 50% 50% 38% 38% !important;
+  background: radial-gradient(ellipse at 50% 26%,#614421,#2a2114 58%,#211a10) !important;
+  box-shadow: inset 0 1px #f2c57255;
+}
+html.mobile body.bt6-home #index { padding-bottom: calc(70px + env(safe-area-inset-bottom,0px)) !important; }
+html.mobile body.bt6-home #index .bookmark { display: none !important; }
+
+/* Keep the original contact links in reach from Bantuan without covering game art. */
+body.bt6-home:not([data-bt-help]) :is(a.livechat_button.bottom-button,a.onewl-whatsapp-button-1,a.onewl-whatsapp-button-2) { display: none !important; }
+body.bt6-home[data-bt-help] :is(a.livechat_button.bottom-button,a.onewl-whatsapp-button-1,a.onewl-whatsapp-button-2) {
+  display: flex !important; align-items: center; justify-content: center;
+  box-sizing: border-box; position: fixed !important; z-index: 1000 !important;
+  right: 14px !important; width: 136px !important; height: 38px !important; margin: 0 !important;
+  border: 1px solid #987342; border-radius: 9px;
+  color: #ffe5b5 !important; background: linear-gradient(155deg,#49371f,#221b12) !important;
+  box-shadow: 0 3px 12px #0009, inset 0 1px #ffdb8e33; text-decoration: none;
+  font: 650 12px var(--bt-font);
+}
+body.bt6-home[data-bt-help] a.livechat_button.bottom-button { bottom: calc(68px + env(safe-area-inset-bottom,0px)) !important; }
+body.bt6-home[data-bt-help] a.onewl-whatsapp-button-1 { bottom: calc(112px + env(safe-area-inset-bottom,0px)) !important; }
+body.bt6-home[data-bt-help] a.onewl-whatsapp-button-2 { bottom: calc(156px + env(safe-area-inset-bottom,0px)) !important; }
+body.bt6-home[data-bt-help] a.livechat_button::after { content: "Live chat"; }
+body.bt6-home[data-bt-help] a.onewl-whatsapp-button-1::after { content: "WhatsApp 1"; }
+body.bt6-home[data-bt-help] a.onewl-whatsapp-button-2::after { content: "WhatsApp 2"; }
+
+html.pc body.bt6-home { --bt-gutter: clamp(18px,4vw,56px); }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) { height: 67px !important; }
+html.pc body.bt6-home #index > .tabs { margin-bottom: 58px !important; }
+html.pc body.bt6-home #index .tabs .logo-box { margin: 0 !important; }
+html.pc body.bt6-home #index .tabs .logo-box .logo { width: 166px !important; height: 46px !important; }
+html.pc body.bt6-home #index .tabs .bookmark { margin-right: auto !important; gap: 4px; }
+html.pc body.bt6-home #index .tabs .bookmark img { width: 13px !important; height: 13px !important; }
+html.pc body.bt6-home #index .tabs .bookmark b { font: 500 11px var(--bt-font); color: #c6b69b; }
+html.pc body.bt6-home #index > .user {
+  position: absolute !important;
+  top: 0 !important;
+  right: max(calc(var(--bt-gutter) + 180px),calc((100% - var(--bt-width)) / 2 + 180px)) !important;
+  width: clamp(265px,28vw,380px) !important;
+  height: 67px !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+html.pc body.bt6-home footer.index-footer {
+  position: absolute !important;
+  inset: 67px auto auto 50% !important;
+  transform: translateX(-50%) !important;
+  width: var(--bt-frame) !important;
+  max-width: var(--bt-width) !important;
+  margin: 0 !important;
+  border: 1px solid #534022 !important;
+  border-top: 0 !important;
+  border-radius: 0 0 12px 12px !important;
+  box-shadow: inset 0 1px #ffe9bb15, 0 3px 6px #0004 !important;
+  z-index: 3 !important;
+}
+html.pc body.bt6-home footer.index-footer .nav-item { flex-direction: row !important; height: 46px !important; gap: 8px; }
+html.pc body.bt6-home footer.index-footer .nav-item + .nav-item { border-left: 1px solid #59452966 !important; }
+html.pc body.bt6-home footer.index-footer .nav-item h3 { font-size: 13px !important; }
+html.pc body.bt6-home footer.index-footer .nav-item-active { background: radial-gradient(ellipse at 50% 110%,#7e542760,transparent 80%) !important; }
+html.pc body.bt6-home #index > .swiper-box { height: 86px !important; margin-top: 8px !important; border-radius: 14px !important; }
+html.pc body.bt6-home .bt-spot-count { font-size: 13px; }
+html.pc body.bt6-home #index .bt-explore { height: 38px !important; padding: 0 19px !important; font-size: 13px !important; }
+html.pc body.bt6-home #index .notice { height: 34px !important; margin-top: 9px !important; }
+html.pc body.bt6-home #index .notice :is(ul,li,span) { font-size: 12px !important; }
+html.pc body.bt6-home .bt-quick-head { margin-top: 18px; margin-bottom: 9px; }
+html.pc body.bt6-home #index .bt-small-heading { font-size: 16px; }
+html.pc body.bt6-home :is(.bt-official,.bt-help-toggle) { font-size: 12px; }
+html.pc body.bt6-home #index #onewl-insert-wrapper { gap: 12px !important; }
+html.pc body.bt6-home #index #onewl-insert-wrapper a {
+  flex-direction: row; justify-content: flex-start !important; gap: 12px;
+  min-height: 69px !important; padding: 7px clamp(12px,1.8vw,30px) !important;
+  border-radius: 12px !important;
+  background: radial-gradient(ellipse at 10% -35%,var(--bt-aura) -40%,transparent 79%),linear-gradient(140deg,var(--bt-tint),#211a14 64%,#15110e) !important;
+}
+html.pc body.bt6-home #index #onewl-insert-wrapper a::before { width: 120px; height: 120px; top: -88px !important; }
+html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
+html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
+html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
+html.pc body.bt6-home #index .bt-catalog-title { font-size: 36px; }
+html.pc body.bt6-home .bt-search { width: 185px; height: 35px; }
+html.pc body.bt6-home #index .game-menu { gap: 8px !important; }
+html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: row !important; gap: 7px !important; height: 55px !important; }
+html.pc body.bt6-home #index .game-menu .game-menu-item b[data-bt-jewel] { width: 35px !important; height: 35px !important; }
+html.pc body.bt6-home #index .game-list .game-menu .game-menu-item i { width: auto !important; }
+html.pc body.bt6-home #index .game-menu-item i::after { font-size: 12px; }
+html.pc body.bt6-home .bt-results { margin: 14px 1px 9px; }
+html.pc body.bt6-home #index .bt-collection { font-size: 17px; }
+html.pc body.bt6-home #index .game-items > .game-category.game-category-current { grid-template-columns: repeat(4,minmax(0,1fr)) !important; gap: 15px !important; }
+html.pc body.bt6-home #index .game-items .game-item p:first-child { aspect-ratio: 1.42; }
+html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !important; font-size: 13px !important; }
+
+@media (max-width: 360px) {
+  html.mobile body.bt6-home #index > .tabs { gap: 8px; }
+  html.mobile body.bt6-home #index .tabs .logo-box .logo { width: 111px !important; }
+}
+@media (max-width: 820px) {
+  html.pc body.bt6-home #index .tabs .bookmark { visibility: hidden; width: 0 !important; overflow: hidden; }
+  html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: column !important; gap: 2px !important; }
+}
+@media (max-width: 640px) {
+  html.pc body.bt6-home #index > .user { position: relative !important; inset: auto !important; width: var(--bt-frame) !important; height: 43px !important; }
+  html.pc body.bt6-home #index .tabs .tab-forget { margin-left: auto !important; }
+  html.pc body.bt6-home #index #onewl-insert-wrapper a { flex-direction: column; gap: 2px; padding: 5px !important; }
+  html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 11px !important; }
+}
+@media (hover:hover) {
+  body.bt6-home #index :is(.game-item,.game-menu-item,#onewl-insert-wrapper a,.bt-gold-button):hover { filter: brightness(1.13); }
+}
+@media (prefers-reduced-motion:reduce) {
+  body.bt6-home #index .notice ul { animation-play-state: paused !important; }
+}
+
+/* Site-specific Customize rules. These follow the base styling in the original admin cascade. */
+li.onewl-promotion-menu {
+  background-image: url("https://cdn.jsdelivr.net/gh/indocsec/bdt@main/icon-promosi.png") !important;
+}
+
+.pc body.champagne-gold-theme {
+  background-image: url("https://cdn.bdr8k8.com/backg/BANDARBGSEPT1.webp") !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+.mobile body {
+  background-image: url("https://cdn.bdr8k8.com/backg/MB-BANDARBGSEPT1.webp") !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: scroll !important;
+}
+.champagne-gold-theme section {
+    background-image: url("https://cdn.bdr8k8.com/backg/MB-BANDARBGSEPT1.webp") !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: scroll !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .history-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .history-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrhistory.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .hot-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .hot-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrhot.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .live-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .live-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrlivegames.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .elgame-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .elgame-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrslot.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .lottery-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .lottery-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrtogel.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .sport-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .sport-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrsport.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .fish-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .fish-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrikan.webp") !important;
+}
+.pc .champagne-gold-theme .game-list .game-menu .card-menu,
+.mobile .champagne-gold-theme .game-list .game-menu .card-menu {
+  background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrarcade.webp") !important;
+}
+.mobile .theme-style footer {
+    background: url(https://cdn.gambaraset.com/bandartoto/bot.webp) no-repeat center top;
+    height: 4.5rem;
+    background-size: cover;
+}
+.game-item[data-nodename="CRYPTO FUTURES"] img[alt="CRYPTO FUTURES"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/kuaitou.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/kuaitou.webp") !important;
+}
+.game-item[data-nodename="SBO"] img[alt="SBO"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/sboSport.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/sboSport.webp") !important;
+}
+.game-item[data-nodename="SABA"] img[alt="SABA"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/sabaSport.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/sabaSport.webp") !important;
+}
+.game-item[data-nodename="PRAGMATIC PLAY SLOT"] img[alt="PRAGMATIC PLAY SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/ppSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/ppSlot.webp") !important;
+}
+.game-item[data-nodename="PG"] img[alt="PG"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/pgSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/pgSlot.webp") !important;
+}
+.game-item[data-nodename="PNG SLOT"] img[alt="PNG SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/yesSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/yesSlot.webp") !important;
+}
+.game-item[data-nodename="WOWGAMING"] img[alt="WOWGAMING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/wowgaming.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/wowgaming.webp") !important;
+}
+.game-item[data-nodename="GGSOFT"] img[alt="GGSOFT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/ggSoft.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/ggSoft.webp") !important;
+}
+.game-item[data-nodename="PLAYSTAR"] img[alt="PLAYSTAR"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/playStar.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/playStar.webp") !important;
+}
+.game-item[data-nodename="NOLIMITCITY"] img[alt="NOLIMITCITY"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/evonlc.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/evonlc.webp") !important;
+}
+.game-item[data-nodename="JILI SLOT"] img[alt="JILI SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/jiliSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/jiliSlot.webp") !important;
+}
+.game-item[data-nodename="ASK SLOT"] img[alt="ASK SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/askSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/askSlot.webp") !important;
+}
+.game-item[data-nodename="HABANERO"] img[alt="HABANERO"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/habaneroSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/habaneroSlot.webp") !important;
+}
+.game-item[data-nodename="HACKSAW"] img[alt="HACKSAW"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/IMone.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/IMone.webp") !important;
+}
+.game-item[data-nodename="5G"] img[alt="5G"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/5gSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/5gSlot.webp") !important;
+}
+.game-item[data-nodename="JOKER SLOT"] img[alt="JOKER SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/jokerSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/jokerSlot.webp") !important;
+}
+.game-item[data-nodename="RED TIGER"] img[alt="RED TIGER"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/evoredtiger.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/evoredtiger.webp") !important;
+}
+.game-item[data-nodename="NETENT"] img[alt="NETENT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/evonetent.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/evonetent.webp") !important;
+}
+.game-item[data-nodename="BIGTIMEGAMING"] img[alt="BIGTIMEGAMING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/evobtg.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/evobtg.webp") !important;
+}
+.game-item[data-nodename="PLAYTECH SLOT"] img[alt="PLAYTECH SLOT"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/playtechSlot.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/playtechSlot.webp") !important;
+}
+.game-item[data-nodename="PRAGMATIC PLAY"] img[alt="PRAGMATIC PLAY"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/ppLive.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/ppLive.webp") !important;
+}
+.game-item[data-nodename="EVOLUTION"] img[alt="EVOLUTION"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/evolive2.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/evolive2.webp") !important;
+}
+.game-item[data-nodename="SEXYGAMING"] img[alt="SEXYGAMING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/SEXYGAMING.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/SEXYGAMING.webp") !important;
+}
+.game-item[data-nodename="EMPIRE GAMING"] img[alt="EMPIRE GAMING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/vegasLv.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/vegasLv.webp") !important;
+}
+.game-item[data-nodename="TGION"] img[alt="TGION"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/tglive.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/tglive.webp") !important;
+}
+.game-item[data-nodename="SA GAMING"] img[alt="SA GAMING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/saLv.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/saLv.webp") !important;
+}
+.game-item[data-nodename="BG"] img[alt="BG"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/bgLv.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/bgLv.webp") !important;
+}
+.game-item[data-nodename="AP"] img[alt="AP"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/b2bSport.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/b2bSport.webp") !important;
+}
+.game-item[data-nodename="TF"] img[alt="TF"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/tfGame.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/tfGame.webp") !important;
+}
+.game-item[data-nodename="JILI FISHING"] img[alt="JILI FISHING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/jiliFish.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/jiliFish.webp") !important;
+}
+.game-item[data-nodename="ASK FISHING"] img[alt="ASK FISHING"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/askFish.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/askFish.webp") !important;
+}
+.game-item[data-nodename="Plinko Circus"] img[alt="Plinko Circus"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/PlinkoCircus.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/PlinkoCircus.webp") !important;
+}
+.game-item[data-nodename="Keno Matrix"] img[alt="Keno Matrix"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/kenoMatrix.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/kenoMatrix.webp") !important;
+}
+.game-item[data-nodename="BlingBangBall"] img[alt="BlingBangBall"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/blingbangball.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/blingbangball.webp") !important;
+}
+.game-item[data-nodename="Domino-Auto"] img[alt="Domino-Auto"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/domino_1690433551431.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/domino_1690433551431.webp") !important;
+}
+.game-item[data-nodename="Texas-Auto"] img[alt="Texas-Auto"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/8.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/8.webp") !important;
+}
+.game-item[data-nodename="TIGER-Auto"] img[alt="TIGER-Auto"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/6.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/6.webp") !important;
+}
+.game-item[data-nodename="ROULETTE-AUTO"] img[alt="ROULETTE-AUTO"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/roulette_1692858844621.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/roulette_1692858844621.webp") !important;
+}
+.game-item[data-nodename="Dice-Auto"] img[alt="Dice-Auto"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/9.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/9.webp") !important;
+}
+.game-item[data-nodename="Baccarat-Auto"] img[alt="Baccarat-Auto"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/7.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/7.webp") !important;
+}
+.game-item[data-nodename="Domino 2"] img[alt="Domino 2"] {
+  --bt-candidate-art: url("https://cdn.bdr8k8.com/games/assets/domino22_1697682487356.webp");
+  content: url("https://cdn.bdr8k8.com/games/assets/domino22_1697682487356.webp") !important;
+}
+.champagne-gold-theme .game-list .game-menu p {
+    background-image: url("https://cdn.bdr8k8.com/gamesbar/bdrpolosan.webp") !important;
+}
+
+.champagne-gold-theme #betRecords {
+  color: #f5f5f5 !important;
+}
+.champagne-gold-theme #betRecords .sub-tabs,
+.champagne-gold-theme #betRecords .range,
+.champagne-gold-theme #betRecords .list {
+  background: rgba(0, 0, 0, 0.68) !important;
+  border: 1px solid rgba(254, 216, 4, 0.24) !important;
+  color: #f5f5f5 !important;
+  box-sizing: border-box !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9) !important;
+}
+.champagne-gold-theme #betRecords .sub-tabs,
+.champagne-gold-theme #betRecords .range {
+  min-height: 4rem !important;
+  margin: 1rem 1rem 0 !important;
+  padding: 0 1rem !important;
+  border-radius: 12px 12px 0 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.champagne-gold-theme #betRecords .sub-tabs {
+  gap: 0.5rem !important;
+  overflow-x: auto !important;
+}
+.champagne-gold-theme #betRecords .range h3 {
+  color: #fed804 !important;
+  font-weight: 900 !important;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.95),
+    0 0 10px rgba(254, 216, 4, 0.26) !important;
+}
+.champagne-gold-theme #betRecords .list {
+  min-height: 12rem !important;
+  margin: 0 1rem 1rem !important;
+  padding: 1rem !important;
+  border-top: 0 !important;
+  border-radius: 0 0 12px 12px !important;
+}
+.champagne-gold-theme #betRecords .list,
+.champagne-gold-theme #betRecords .list *,
+.champagne-gold-theme #betRecords .sub-tabs,
+.champagne-gold-theme #betRecords .sub-tabs *,
+.champagne-gold-theme #betRecords .noData,
+.champagne-gold-theme #betRecords .noData span {
+  color: #f5f5f5 !important;
+  -webkit-text-fill-color: #f5f5f5 !important;
+}
+.champagne-gold-theme #betRecords .sub-tabs .actived,
+.champagne-gold-theme #betRecords .sub-tabs .active,
+.champagne-gold-theme #betRecords .sub-tabs li.actived,
+.champagne-gold-theme #betRecords .sub-tabs li.active {
+  background: linear-gradient(to bottom, #fff349, #fed804) !important;
+  color: #232323 !important;
+  -webkit-text-fill-color: #232323 !important;
+  text-shadow: none !important;
+}
+.champagne-gold-theme #betRecords .noData img {
+  filter: brightness(1.15) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55)) !important;
+}
+
+.wlg-container-wrap,
+.wlg-container-wrap * {
+  box-sizing: border-box;
+}
+.wlg-container-wrap {
+  margin: 10px auto;
+  padding: 0 0 2px;
+  text-align: center;
+  width: min(980px, calc(100% - 80px));
+}
+.wlg-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 2px solid #f1c343;
+  padding: 3px;
+  background: #000000;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), 0 6px 18px rgba(0, 0, 0, 0.35);
+  margin-bottom: 0;
+  border-radius: 50px;
+  height: 44px;
+}
+.wlg-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fdfb80;
+  background-size: 300% 300%;
+  text-shadow: 1px 2px 5px rgb(0 0 0);
+  margin-bottom: 1px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center bottom;
+  margin-top: 5px;
+  animation: wlgBounce 1.8s cubic-bezier(.28, .84, .42, 1) infinite;
+}
+.wlg-icon-wrap {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom, #fff349, #fed804) !important;
+  border: 1px solid #ffe08a !important;
+  color: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: stretch;
+  align-content: center;
+}
+.wlg-icon-wrap img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  justify-self: center;
+  align-self: center;
+}
+.wlg-search-outer {
+  flex: 1;
+  height: 34px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #fff349, #fed804) !important;
+  border: 1px solid #ffe08a !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.2s ease;
+  font-size: 16px;
+}
+
+@keyframes wlgBounce {
+  0%, 100% { transform: translateY(0); }
+  20% { transform: translateY(-2px); }
+  40% { transform: translateY(0); }
+  60% { transform: translateY(-1px); }
+  80% { transform: translateY(0); }
+}
+
+@media (max-width: 560px) {
+  .wlg-container-wrap {
+    width: calc(100% - 16px);
+    margin: 8px auto;
+  }
+}
