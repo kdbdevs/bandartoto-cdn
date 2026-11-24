@@ -2214,22 +2214,67 @@ body.bt6-home #index .game-items .game-item p img {
 /* Display native artwork until the corresponding Customize replacement decodes successfully. */
 body.bt6-home #index .game-item[data-nodename] p img[alt] { content: var(--bt-loaded-art, normal) !important; }
 body.bt6-home #index .game-items .game-item h3 {
-  display: block !important;
-  position: static !important;
+  --bt-nameplate-end: 22px;
+  display: grid !important;
+  align-items: center;
+  position: relative !important;
   box-sizing: border-box;
   width: 100% !important;
-  height: auto !important;
+  height: 43px !important;
   margin: 0 !important;
-  padding: 8px 7px 9px !important;
+  padding: 0 calc(var(--bt-nameplate-end) - 2px) 0 7px !important;
   border: 0 !important;
-  border-top: 1px solid #b78c4d4a !important;
-  background: linear-gradient(165deg,#262822 0%,#1c1d1b 50%,#141513 100%) !important;
-  color: #f7f8f0 !important;
-  font: 700 clamp(10px,2.8vw,13px)/1.15 var(--bt-font) !important;
+  background:
+    linear-gradient(90deg,#a87723,#ffde68 24%,#907232 69%,#eebd48) top / 100% 1px no-repeat,
+    radial-gradient(ellipse at 0% 0%,#8b682747,transparent 78%),
+    repeating-linear-gradient(130deg,#ffedbc07 0 1px,transparent 1px 4px),
+    linear-gradient(160deg,#2c291e,#181813 56%,#11120f) !important;
+  color: #fff7db !important;
+  font: 700 clamp(10px,2.8vw,13px)/1.22 var(--bt-font) !important;
   text-align: left !important;
+  text-shadow: 0 1px 2px #000;
   overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  white-space: nowrap !important;
+}
+body.bt6-home #index .game-items .bt-game-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 2lh;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  white-space: normal;
+  pointer-events: none;
+}
+body.bt6-home #index .game-items .game-item h3::before,
+body.bt6-home #index .game-items .game-item h3::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+/* The angled end cap frames the card's open action. */
+body.bt6-home #index .game-items .game-item h3::before {
+  inset: 1px 0 0 auto;
+  width: var(--bt-nameplate-end);
+  clip-path: polygon(42% 0,100% 0,100% 100%,0 100%);
+  background:
+    linear-gradient(112deg,transparent 35%,#fff4b999 50%,transparent 64%)
+      calc(100% - var(--bt-card-lit, 0) * 100%) 0 / 250% 100%,
+    linear-gradient(112deg,transparent 29%,#edc055 33%,#826029 37%,transparent 40%),
+    linear-gradient(155deg,#987031,#513813 53%,#33230e);
+}
+body.bt6-home #index .game-items .game-item h3::after {
+  inset: 50% max(7px,calc(var(--bt-nameplate-end) * .36)) auto auto;
+  width: 5px;
+  height: 5px;
+  border: solid #ffe18a;
+  border-width: 1.5px 1.5px 0 0;
+  filter: drop-shadow(0 0 3px #ffd151ad);
+  transform: translateY(-50%) rotate(45deg);
+}
+@media (prefers-reduced-motion: no-preference) {
+  body.bt6-home #index .game-items .game-item h3::before {
+    transition: background-position 480ms var(--bt-ease);
+  }
 }
 body.bt6-home #index .game-items .game-category > .game-item[data-bt-filtered] { display: none !important; }
 body.bt6-home #index .bt-empty { padding: 18px; text-align: center; color: var(--bt-muted); font: 500 13px var(--bt-font); }
@@ -2444,7 +2489,14 @@ html.pc body.bt6-home #index .game-menu-item i::after { font-size: 12px; }
 html.pc body.bt6-home .bt-results { margin: 14px 1px 9px; }
 html.pc body.bt6-home #index .bt-collection { font-size: 17px; }
 html.pc body.bt6-home #index .game-items > .game-category.game-category-current { grid-template-columns: repeat(4,minmax(0,1fr)) !important; gap: 15px !important; }
-html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !important; font-size: 13px !important; }
+@media (min-width: 821px) {
+  html.pc body.bt6-home #index .game-items .game-item h3 {
+    --bt-nameplate-end: 40px;
+    height: 48px !important;
+    padding-left: 13px !important;
+    font-size: 13px !important;
+  }
+}
 
 @media (max-width: 360px) {
   html.mobile body.bt6-home #index > .tabs { gap: 6px; }
