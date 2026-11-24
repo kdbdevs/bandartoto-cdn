@@ -1599,7 +1599,7 @@ body.bt6-home #index {
   color: var(--bt-paper);
 }
 body.bt6-home #index :is(.tabs,.user,.swiper-box,.notice,.game-list,.game-menu,.game-menu-item,.game-item),
-body.bt6-home :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-search,.bt-query,.bt-spotlight,.bt-gold-button,footer.index-footer,.nav-item) {
+body.bt6-home :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-search,.bt-query,footer.index-footer,.nav-item) {
   box-sizing: border-box !important;
 }
 body.bt6-home #index :is(input,button,.game-menu-item,.game-item h3,.tabs,.user,.notice) {
@@ -1610,7 +1610,7 @@ body.bt6-home :is(button,a,input,[tabindex]):focus-visible {
   outline-offset: 2px;
 }
 body.bt6-home [hidden],
-body:not(.bt6-home) #index :is(.bt-spotlight,.bt-quick-head,.bt-catalog-head,.bt-results,.bt-empty) {
+body:not(.bt6-home) #index :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-empty) {
   display: none !important;
 }
 
@@ -1752,7 +1752,7 @@ body.bt6-home #index .user input, body.bt6-home .bt-query {
   box-shadow: none !important;
 }
 body.bt6-home #index input::placeholder { color: #bdbeb7 !important; opacity: 1; }
-body.bt6-home #index :is(.bt-gold-button,.user .loginBtn) {
+body.bt6-home #index .user .loginBtn {
   display: inline-flex !important;
   position: relative !important;
   align-items: center !important;
@@ -1775,12 +1775,13 @@ body.bt6-home #index :is(.bt-gold-button,.user .loginBtn) {
   cursor: pointer;
 }
 
-/* Loaded native promotions use the whole frame. A compact catalog link fills in while images are unavailable. */
+/* Keep the native promotion carousel, its controls and its slide proportions. */
 body.bt6-home #index > .swiper-box {
   position: relative !important;
   isolation: isolate;
   width: var(--bt-frame) !important;
-  height: 77px !important;
+  height: auto !important;
+  aspect-ratio: var(--bt-banner-ratio, 1221 / 816);
   margin: 14px auto 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
@@ -1800,46 +1801,22 @@ body.bt6-home #index .swiper-box > .swiper {
   border-radius: inherit !important;
   z-index: 1;
 }
-html:is(.pc,.mobile) body.bt6-home #index > .swiper-box[data-bt-banner] { height: var(--bt-frame-height) !important; }
-body.bt6-home #index .swiper-box[data-bt-banner] > .swiper {
-  inset: 0 auto auto 0 !important;
-  width: var(--bt-slide-width) !important;
-  max-width: none !important;
-  max-height: none !important;
-  height: var(--bt-slide-height) !important;
-  transform: scale(var(--bt-slide-scale,1)) !important;
-  transform-origin: top left !important;
-}
-body.bt6-home #index .swiper-box:not([data-bt-banner]) > .swiper { visibility: hidden !important; pointer-events: none; }
-body.bt6-home #index .swiper-item img { height: 100%; width: 100%; object-fit: contain; }
-body.bt6-home .bt-spotlight {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  padding: 10px clamp(13px, 4vw, 34px);
-  background: linear-gradient(112deg, #11120f 15%, transparent 65%),
-    repeating-linear-gradient(121deg, transparent 0 24px, #ffe75c12 25px, transparent 27px 45px),
-    radial-gradient(ellipse at 84% 10%, #514622 0%, #202019 45%, #111210 82%);
-  box-shadow: inset 0 1px #ffdb8d35;
-}
-body.bt6-home .bt-spot-content {
-  display: grid;
-  grid-template-columns: minmax(0,1fr) auto;
-  grid-template-rows: auto auto;
-  align-items: center;
-  gap: 4px 12px;
-  width: 100%;
-}
-body.bt6-home #index .bt-spot-title {
+html:is(.pc,.mobile) body.bt6-home #index > .swiper-box:not([data-bt-banner]) {
+  height: 0 !important;
   margin: 0 !important;
-  color: #faf9f2 !important;
-  font: 700 clamp(22px, 5.8vw, 32px)/1 var(--bt-display) !important;
+  border: 0 !important;
+  visibility: hidden;
 }
-body.bt6-home .bt-spot-title em { color: #ffdf47; font-style: normal; }
-body.bt6-home .bt-spot-count { grid-area: 2/1; font: 500 11px/1.35 var(--bt-font); color: #d3d4c9; }
-body.bt6-home #index .bt-explore { grid-area: 1/2/3/3; }
-body.bt6-home .bt-arrow { font: 700 21px/.7 system-ui; margin-top: -2px; }
+/* Give the host track a full frame per slide, including while it rotates its loop clones. */
+body.bt6-home #index .swiper-box .swiper-container,
+body.bt6-home #index .swiper-box .swiper-item { height: 100% !important; }
+body.bt6-home #index .swiper-box .swiper-item {
+  flex: none !important;
+  width: var(--bt-banner-width) !important;
+  min-width: var(--bt-banner-width) !important;
+  max-width: var(--bt-banner-width) !important;
+}
+body.bt6-home #index .swiper-item img { height: 100%; width: 100%; object-fit: contain; }
 body.bt6-home #index > .notice {
   min-height: 0 !important;
   position: relative !important;
@@ -2339,9 +2316,7 @@ html.pc body.bt6-home footer.index-footer .nav-item { flex-direction: row !impor
 html.pc body.bt6-home footer.index-footer .nav-item + .nav-item { border-left: 1px solid #51524166 !important; }
 html.pc body.bt6-home footer.index-footer .nav-item h3 { font-size: 13px !important; }
 html.pc body.bt6-home footer.index-footer .nav-item-active { background: radial-gradient(ellipse at 50% 110%,#6f662c52,transparent 80%) !important; }
-html.pc body.bt6-home #index > .swiper-box { height: 86px !important; margin-top: 8px !important; border-radius: 14px !important; }
-html.pc body.bt6-home .bt-spot-count { font-size: 13px; }
-html.pc body.bt6-home #index .bt-explore { height: 38px !important; padding: 0 19px !important; font-size: 13px !important; }
+html.pc body.bt6-home #index > .swiper-box { margin-top: 8px !important; aspect-ratio: var(--bt-banner-ratio, 4 / 1); border-radius: 14px !important; }
 html.pc body.bt6-home #index .notice { height: 34px !important; margin-top: 9px !important; }
 html.pc body.bt6-home #index .notice :is(ul,li,span) { font-size: 12px !important; }
 html.pc body.bt6-home .bt-quick-head { margin-top: 18px; margin-bottom: 9px; }
@@ -2386,7 +2361,7 @@ html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !imp
   html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 11px !important; }
 }
 /* Keep the host's transition:all off the layout, catalog art and icon sprite. */
-body.bt6-home #index :where(.game-menu,.game-menu-item,.game-menu-item b,.game-items,.game-category,.game-item,.game-item img,.bt-short-jewel,.bt-gold-button,.loginBtn),
+body.bt6-home #index :where(.game-menu,.game-menu-item,.game-menu-item b,.game-items,.game-category,.game-item,.game-item img,.bt-short-jewel,.loginBtn),
 body.bt6-home footer.index-footer .nav-item .icon { transition: none !important; }
 body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; transition: none !important; }
 
@@ -2421,21 +2396,20 @@ body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; trans
   body.bt6-home .game-category > .game-item:nth-child(7) { --bt-delay: 120ms; }
   body.bt6-home .game-category > .game-item:nth-child(8) { --bt-delay: 140ms; }
 
-  body.bt6-home .bt-spot-content,
   body.bt6-home[data-bt-help] :is(a.livechat_button.bottom-button,a.onewl-whatsapp-button-1,a.onewl-whatsapp-button-2) {
     animation: bt6-arrive 190ms var(--bt-ease);
   }
-  body.bt6-home #index :is(.game-item,.game-menu-item,.bt-gold-button,.loginBtn),
+  body.bt6-home #index :is(.game-item,.game-menu-item,.loginBtn),
   body.bt6-home #index #onewl-insert-wrapper a,
   body.bt6-home footer.index-footer .nav-item .icon {
     transition: scale 125ms var(--bt-ease) !important;
   }
-  body.bt6-home #index :is(.game-item,.game-menu-item,.bt-gold-button,.loginBtn):active,
+  body.bt6-home #index :is(.game-item,.game-menu-item,.loginBtn):active,
   body.bt6-home #index #onewl-insert-wrapper a:active,
   body.bt6-home footer.index-footer .nav-item:active .icon { scale: .96; }
 
-  body.bt6-home #index :is(.bt-gold-button,.loginBtn) { overflow: hidden; }
-  body.bt6-home #index :is(.bt-gold-button,.loginBtn)::after {
+  body.bt6-home #index .loginBtn { overflow: hidden; }
+  body.bt6-home #index .loginBtn::after {
     content: "";
     position: absolute;
     inset: -30% auto -30% 0;
@@ -2444,13 +2418,13 @@ body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; trans
     opacity: 0;
     background: linear-gradient(90deg, transparent, #fff9d6b3, transparent);
   }
-  body.bt6-home #index :is(.bt-gold-button,.loginBtn):focus-visible::after { animation: bt6-sheen 460ms ease-out; }
+  body.bt6-home #index .loginBtn:focus-visible::after { animation: bt6-sheen 460ms ease-out; }
 }
 @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
   body.bt6-home #index :is(.game-item img,.bt-short-jewel) { transition: scale 220ms var(--bt-ease) !important; }
   body.bt6-home #index .game-item:is(:hover,:focus-visible) img,
   body.bt6-home #index #onewl-insert-wrapper a:is(:hover,:focus-visible) .bt-short-jewel { scale: 1.055; }
-  body.bt6-home #index :is(.bt-gold-button,.loginBtn):hover::after { animation: bt6-sheen 460ms ease-out; }
+  body.bt6-home #index .loginBtn:hover::after { animation: bt6-sheen 460ms ease-out; }
 }
 @media (prefers-reduced-motion:reduce) {
   body.bt6-home #index .notice ul { animation-play-state: paused !important; }
