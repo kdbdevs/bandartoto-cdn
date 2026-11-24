@@ -2258,9 +2258,9 @@ body.bt6-home #index .game-items .game-item h3::before {
   clip-path: polygon(42% 0,100% 0,100% 100%,0 100%);
   background:
     linear-gradient(112deg,transparent 35%,#fff4b999 50%,transparent 64%)
-      calc(100% - var(--bt-card-lit, 0) * 100%) 0 / 250% 100%,
+      var(--bt-nameplate-sweep, calc(100% - var(--bt-card-lit, 0) * 100%)) 0 / 250% 100%,
     linear-gradient(112deg,transparent 29%,#edc055 33%,#826029 37%,transparent 40%),
-    linear-gradient(155deg,#987031,#513813 53%,#33230e);
+    var(--bt-nameplate-metal, linear-gradient(155deg,#987031,#513813 53%,#33230e));
 }
 body.bt6-home #index .game-items .game-item h3::after {
   inset: 50% max(7px,calc(var(--bt-nameplate-end) * .36)) auto auto;
@@ -2271,9 +2271,25 @@ body.bt6-home #index .game-items .game-item h3::after {
   filter: drop-shadow(0 0 3px #ffd151ad);
   transform: translateY(-50%) rotate(45deg);
 }
+html.mobile body.bt6-home #index .game-items .game-item h3::before {
+  --bt-nameplate-metal: linear-gradient(154deg,#ffef9d,#edbb32 42%,#aa7418 74%,#bc881e);
+}
+html.mobile body.bt6-home #index .game-items .game-item h3::after {
+  border-color: #332206;
+  filter: drop-shadow(0 1px #fff3ad99);
+}
 @media (prefers-reduced-motion: no-preference) {
   body.bt6-home #index .game-items .game-item h3::before {
     transition: background-position 480ms var(--bt-ease);
+  }
+}
+@media (pointer: coarse) and (prefers-reduced-motion: no-preference) {
+  html.mobile body.bt6-home #index .game-items .game-item h3::before {
+    --bt-nameplate-sweep: 100%;
+    transition-duration: 640ms;
+  }
+  html.mobile body.bt6-home #index .game-items .game-item h3[data-bt-nameplate-seen]::before {
+    --bt-nameplate-sweep: 0%;
   }
 }
 body.bt6-home #index .game-items .game-category > .game-item[data-bt-filtered] { display: none !important; }
