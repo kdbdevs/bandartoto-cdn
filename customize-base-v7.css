@@ -2187,7 +2187,7 @@ body.bt6-home #index .game-items .game-item p:first-child {
   position: relative !important;
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: 1.12;
+  aspect-ratio: 1;
   flex: 0 0 auto;
   margin: 0 !important;
   padding: 0 !important;
@@ -2207,7 +2207,7 @@ body.bt6-home #index .game-items .game-item p img {
   height: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center !important;
   transform: none !important;
 }
@@ -2444,7 +2444,6 @@ html.pc body.bt6-home #index .game-menu-item i::after { font-size: 12px; }
 html.pc body.bt6-home .bt-results { margin: 14px 1px 9px; }
 html.pc body.bt6-home #index .bt-collection { font-size: 17px; }
 html.pc body.bt6-home #index .game-items > .game-category.game-category-current { grid-template-columns: repeat(4,minmax(0,1fr)) !important; gap: 15px !important; }
-html.pc body.bt6-home #index .game-items .game-item p:first-child { aspect-ratio: 1.42; }
 html.pc body.bt6-home #index .game-items .game-item h3 { padding: 12px 13px !important; font-size: 13px !important; }
 
 @media (max-width: 360px) {
@@ -2533,8 +2532,7 @@ body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; trans
   body.bt6-home #index .loginBtn:focus-visible::after { animation: bt6-sheen 460ms ease-out; }
 }
 @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
-  body.bt6-home #index :is(.game-item img,.bt-short-jewel) { transition: scale 220ms var(--bt-ease) !important; }
-  body.bt6-home #index .game-item:is(:hover,:focus-visible) img,
+  body.bt6-home #index .bt-short-jewel { transition: scale 220ms var(--bt-ease) !important; }
   body.bt6-home #index #onewl-insert-wrapper a:is(:hover,:focus-visible) .bt-short-jewel { scale: 1.055; }
   body.bt6-home #index .loginBtn:hover::after { animation: bt6-sheen 460ms ease-out; }
 }
