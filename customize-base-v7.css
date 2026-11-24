@@ -1580,6 +1580,9 @@ html:is(.mobile,.pc) body.bt6-home {
     linear-gradient(115deg, #080909, #101110 50%, #080908 100%) !important;
   min-height: 100vh;
 }
+html.mobile body.bt6-home {
+  background: #090a09 var(--bt-mobile-home-bg, url("https://cdn.bdr8k8.com/backg/MB-BANDARBGSEPT1V2.webp")) center top / 100% auto repeat-y scroll !important;
+}
 body.bt6-home #app {
   margin: 0 auto !important;
   width: 100% !important;
