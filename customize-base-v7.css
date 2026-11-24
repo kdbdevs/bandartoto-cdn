@@ -1899,9 +1899,8 @@ body.bt6-home #index #onewl-insert-wrapper {
 }
 body.bt6-home #index #onewl-insert-wrapper a {
   box-sizing: border-box !important;
-  --bt-aura: #84762e;
-  --bt-rim: #52503a;
-  --bt-tint: #272821;
+  --bt-aura: #675219;
+  --bt-rim: #84723c;
   position: relative !important;
   isolation: isolate !important;
   display: flex !important;
@@ -1914,7 +1913,7 @@ body.bt6-home #index #onewl-insert-wrapper a {
   padding: 3px 2px 7px !important;
   border: 1px solid var(--bt-rim) !important;
   border-radius: 10px !important;
-  background: radial-gradient(ellipse at 50% -25%, var(--bt-aura) -40%, transparent 75%), linear-gradient(155deg,var(--bt-tint) 0%, #191a18 54%, #0e0f0f 100%) !important;
+  background: radial-gradient(ellipse at 93% 8%, var(--bt-aura), transparent 76%), linear-gradient(150deg, #242521, #101211 76%) !important;
   box-shadow: inset 0 1px #fff2cb29, inset 0 -2px 4px #0005, 0 3px 6px #0005 !important;
   color: #ffefd9 !important;
   text-decoration: none !important;
@@ -1922,19 +1921,110 @@ body.bt6-home #index #onewl-insert-wrapper a {
   text-transform: none !important;
   overflow: hidden;
 }
-body.bt6-home #index #onewl-insert-wrapper a::before {
+/* Each shortcut has its own moving illustration beneath the original link content. */
+body.bt6-home #index #onewl-insert-wrapper a::before,
+body.bt6-home #index #onewl-insert-wrapper a::after {
   content: "" !important;
   position: absolute !important;
-  inset: -48px -17px auto auto !important;
-  width: 70px; height: 70px;
-  border: 1px solid #ffdeaa17;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px #ffe9c607, 0 0 0 11px #ffe9c607;
-  background: none !important;
-  animation: none !important;
+  inset: 0 !important;
+  z-index: -1 !important;
   pointer-events: none;
+  border: 0;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  animation: none !important;
 }
-body.bt6-home #index #onewl-insert-wrapper a::after { content: none !important; }
+body.bt6-home #index #onewl-insert-wrapper a::after {
+  background: linear-gradient(0deg, #090c0dd9, transparent 59%) !important;
+}
+
+/* A milled gold medal rotates behind the trophy. */
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(1)::before {
+  inset: -29px -27px auto auto !important;
+  width: 108px;
+  height: 108px;
+  border-radius: 50% !important;
+  background:
+    radial-gradient(circle, #252012 0 23%, transparent 24% 31%, #302812 32% 43%, #d5b34e 44% 45%, #322a15 46% 52%, transparent 53% 64%, #8f7637 65% 66%, transparent 67%),
+    repeating-conic-gradient(from 5deg, #d3af51 0 2deg, #624e27 3deg 6deg, #362e19 7deg 11.25deg) !important;
+}
+
+/* Parallel flight paths catch streaks of light behind the paper plane. */
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(2) {
+  --bt-aura: #1b5360;
+  --bt-rim: #436668;
+  background: repeating-linear-gradient(156deg, transparent 0 15px, #7edbdd26 16px, transparent 17px 24px),
+    radial-gradient(ellipse at 92% 4%, var(--bt-aura), transparent 80%), #101718 !important;
+}
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(2)::before {
+  inset: -35% -44% !important;
+  background:
+    linear-gradient(156deg, transparent 44%, #52bebf55 48%, #d2fcdf 49% 50%, transparent 51%) 2% 25% / 58px 28px,
+    linear-gradient(156deg, transparent 44%, #67ceec88 48%, #9ae2f4 49% 50%, transparent 51%) 68% 62% / 85px 42px,
+    linear-gradient(156deg, transparent 44%, #c4e9ff 49% 50%, transparent 51%) 94% 12% / 37px 19px !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Segmented spectrum bars rise from the lower edge of the RTP card. */
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(3) {
+  --bt-aura: #563557;
+  --bt-rim: #71566b;
+}
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(3)::before {
+  inset: 10% -2% 5% 20% !important;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 5px, #18141b 5px 8px),
+    repeating-linear-gradient(0deg, transparent 0 3px, #201823 3px 5px),
+    linear-gradient(0deg, #8b516f, #e89e78 66%, #ffe178) !important;
+  clip-path: polygon(0 100%,0 82%,9% 82%,9% 60%,18% 60%,18% 72%,27% 72%,27% 40%,37% 40%,37% 60%,46% 60%,46% 28%,56% 28%,56% 42%,66% 42%,66% 18%,77% 18%,77% 34%,87% 34%,87% 4%,100% 4%,100% 100%);
+  transform-origin: bottom;
+}
+
+/* Stadium markings and a ball passing between three positions. */
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(4) {
+  --bt-aura: #315940;
+  --bt-rim: #536d53;
+}
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(4)::before {
+  inset: -6px -19px 10px auto !important;
+  width: 116px;
+  border: 1px solid #94be865e;
+  transform: rotate(-16deg);
+  background:
+    radial-gradient(circle at 50% 50%, transparent 0 13px, #bce4a675 13px 14px, transparent 15px),
+    linear-gradient(90deg, transparent 49%, #c8edac82 50%, transparent 51%),
+    repeating-linear-gradient(90deg, #83b77b1c 0 16px, transparent 16px 32px) !important;
+}
+body.bt6-home #index #onewl-insert-wrapper a:nth-child(4)::after {
+  inset: 16px 16px auto auto !important;
+  width: 5px;
+  height: 5px;
+  border-radius: 50% !important;
+  background: #fff2b5 !important;
+  box-shadow: 0 0 0 3px #ffe77430, 0 0 9px #ffe576 !important;
+}
+@keyframes bt7-medal { to { transform: rotate(1turn); } }
+@keyframes bt7-flight {
+  from { transform: translate(-16%, 12%); }
+  to { transform: translate(15%, -13%); }
+}
+@keyframes bt7-spectrum {
+  0%, 100% { transform: scaleY(.62); }
+  35% { transform: scaleY(.95); }
+  64% { transform: scaleY(.73); }
+  82% { transform: scaleY(1); }
+}
+@keyframes bt7-pass {
+  0%, 16%, 100% { transform: translate(0,0); }
+  42%, 50% { transform: translate(-34px,21px); }
+  72%, 82% { transform: translate(-12px,32px); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  body.bt6-home #index #onewl-insert-wrapper a:nth-child(1)::before { animation: bt7-medal 32s linear infinite !important; }
+  body.bt6-home #index #onewl-insert-wrapper a:nth-child(2)::before { animation: bt7-flight 4s ease-in-out -1s infinite alternate !important; }
+  body.bt6-home #index #onewl-insert-wrapper a:nth-child(3)::before { animation: bt7-spectrum 2.8s ease-in-out -.7s infinite !important; }
+  body.bt6-home #index #onewl-insert-wrapper a:nth-child(4)::after { animation: bt7-pass 5s ease-in-out -.5s infinite !important; }
+}
 body.bt6-home #index #onewl-insert-wrapper .bt-short-label {
   position: relative !important;
   z-index: 1;
@@ -2323,9 +2413,7 @@ html.pc body.bt6-home #index #onewl-insert-wrapper a {
   flex-direction: row; justify-content: flex-start !important; gap: 12px;
   min-height: 69px !important; padding: 7px clamp(12px,1.8vw,30px) !important;
   border-radius: 12px !important;
-  background: radial-gradient(ellipse at 10% -35%,var(--bt-aura) -40%,transparent 79%),linear-gradient(140deg,var(--bt-tint),#191a18 64%,#101110) !important;
 }
-html.pc body.bt6-home #index #onewl-insert-wrapper a::before { width: 120px; height: 120px; top: -88px !important; }
 html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
 html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
 html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
