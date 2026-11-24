@@ -2452,6 +2452,79 @@ body.bt6-home #index #onewl-insert-wrapper a { transform: none !important; trans
   body.bt6-home #index .notice ul { animation-play-state: paused !important; }
 }
 
+/* A narrow foil edge on the catalog. Artwork and hit targets stay on their native nodes. */
+@property --bt-rim-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: -45deg;
+}
+@keyframes bt6-tab-glint {
+  0% { --bt-rim-angle: -45deg; opacity: .55; }
+  5%, 30% { opacity: 1; }
+  36%, 100% { --bt-rim-angle: 315deg; opacity: 0; }
+}
+@keyframes bt6-card-glint {
+  from { --bt-rim-angle: -45deg; opacity: .55; }
+  14%, 82% { opacity: 1; }
+  to { --bt-rim-angle: 315deg; opacity: 0; }
+}
+body.bt6-home #index .game-items .game-item:is(:active,:focus-visible) {
+  --bt-card-lit: 1;
+  --bt-card-angle: 315deg;
+  border-color: #ffd16a !important;
+}
+@media (hover: hover) and (pointer: fine) {
+  body.bt6-home #index .game-items .game-item:hover {
+    --bt-card-lit: 1;
+    --bt-card-angle: 315deg;
+    border-color: #ffd16a !important;
+  }
+}
+@supports (mask-composite: exclude) or (-webkit-mask-composite: xor) {
+  @media (prefers-reduced-motion: no-preference) {
+    body.bt6-home #index .game-menu .game-menu-current::after,
+    body.bt6-home #index .game-items .game-category-current > .game-item::after {
+      content: "" !important;
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      box-sizing: border-box;
+      padding: 2.5px;
+      border-radius: inherit;
+      pointer-events: none;
+      background: conic-gradient(from var(--bt-rim-angle, -45deg),
+        transparent 0deg 233deg, #cd79001f 260deg, #e9950da8 289deg,
+        #ffb82f 311deg, #ffe18a 332deg, #fffbe5 344deg 353deg, #ffc74e 358deg, transparent 360deg);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+    body.bt6-home #index .game-menu .game-menu-current::after {
+      animation: bt6-tab-glint 3.6s linear infinite;
+    }
+    body.bt6-home #index .game-items .game-category-current > .game-item::after {
+      --bt-rim-angle: var(--bt-card-angle, -45deg);
+      opacity: var(--bt-card-lit, 0);
+      transition: --bt-rim-angle 820ms var(--bt-ease), opacity 140ms linear;
+    }
+    body.bt6-home #index .game-items[aria-busy="false"]:not([data-bt-skip-reveal]) > .game-category-current > .game-item:first-child::after {
+      animation: bt6-card-glint 1050ms ease-out;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) and (pointer: coarse) {
+    /* The sweep completes on release, even after a brief tap. */
+    body.bt6-home #index .game-items .game-category-current > .game-item:not(:focus-visible)::after {
+      --bt-rim-angle: 315deg;
+      transition: --bt-rim-angle 760ms linear, opacity 160ms ease-out 600ms;
+    }
+    body.bt6-home #index .game-items .game-category-current > .game-item:active:not(:focus-visible)::after {
+      --bt-rim-angle: -45deg;
+      transition: none;
+    }
+  }
+}
+
 /* Site-specific Customize rules. These follow the base styling in the original admin cascade. */
 li.onewl-promotion-menu {
   background-image: url("https://cdn.cloudnes.space/sm/bandartoto-v6/icon-promosi-32d70ecbec95.png") !important;
