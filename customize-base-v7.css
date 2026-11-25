@@ -1956,27 +1956,26 @@ body.bt6-home #index #onewl-insert-wrapper a::before,
 body.bt6-home #index #onewl-insert-wrapper a::after {
   content: "" !important;
   position: absolute !important;
-  inset: 0 -9px 0 auto !important;
-  width: clamp(65px, 37%, 175px);
+  inset: 0 0 0 auto !important;
+  width: clamp(60px, 36%, 160px);
   z-index: -1 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  transform: skewX(-28deg);
-  transform-origin: bottom left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 58% 100%, 58% 66%, 29% 66%, 29% 33%, 0 33%);
   pointer-events: none;
 }
 body.bt6-home #index #onewl-insert-wrapper a::before {
   background:
-    linear-gradient(90deg,#dec27a65 0 1px,#ffda8e21 1px 7px,#ecd18249 7px 8px,transparent 8px),
-    linear-gradient(113deg,#c7a65a33,#c7a65a12 55%,#c7a65a04) !important;
+    linear-gradient(180deg,#f5d3842b 0 1px,transparent 1px 33%,#efd48e36 33% calc(33% + 1px),
+      #efd48e0a calc(33% + 1px) 66%,#efd48e36 66% calc(66% + 1px),transparent calc(66% + 1px)),
+    linear-gradient(90deg,#c7a65a29,#c7a65a14 62%,#c7a65a04) !important;
   animation: none !important;
 }
 body.bt6-home #index #onewl-insert-wrapper a::after { content: none !important; }
 
-@keyframes bt7-quick-facet-sheen {
-  0% { opacity: 0; transform: skewX(-28deg); }
-  18% { opacity: .78; }
-  55%, 100% { opacity: 0; transform: skewX(-28deg) translateX(62%); }
+@keyframes bt7-quick-step-glow {
+  0%, 72%, 100% { opacity: 0; }
+  31% { opacity: .8; }
 }
 @media (prefers-reduced-motion: no-preference) {
   body.bt6-home #index #onewl-insert-wrapper a:nth-child(2) { --bt-quick-delay: -1.2s; }
@@ -1984,8 +1983,8 @@ body.bt6-home #index #onewl-insert-wrapper a::after { content: none !important; 
   body.bt6-home #index #onewl-insert-wrapper a:nth-child(4) { --bt-quick-delay: -3.6s; }
   body.bt6-home #index #onewl-insert-wrapper a::after {
     content: "" !important;
-    background: linear-gradient(100deg,transparent 8%,#fff0c340 44%,transparent 77%) !important;
-    animation: bt7-quick-facet-sheen 5s ease-in-out var(--bt-quick-delay, 0s) infinite;
+    background: linear-gradient(100deg,#fff0c326,transparent 82%) !important;
+    animation: bt7-quick-step-glow 5s ease-in-out var(--bt-quick-delay, 0s) infinite;
   }
 }
 body.bt6-home #index #onewl-insert-wrapper .bt-short-label {
