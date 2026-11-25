@@ -1900,7 +1900,7 @@ body.bt6-home :is(.bt-official,.bt-help-toggle) {
 }
 body.bt6-home #index #onewl-insert-wrapper {
   display: grid !important;
-  grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   width: var(--bt-frame) !important;
   gap: 7px !important;
   margin: 0 auto !important;
@@ -2073,40 +2073,49 @@ body.bt6-home #index .game-menus .bt-menu-arrows {
 }
 body.bt6-home #index .game-menus .bt-menu-arrow {
   position: absolute;
-  top: 50%;
+  top: 2px;
+  bottom: 4px;
   display: grid !important;
-  place-items: center;
+  align-items: center;
   box-sizing: border-box;
-  width: 34px !important;
-  height: 44px !important;
-  padding: 0 !important;
+  width: 40px !important;
+  height: auto !important;
+  padding: 0 9px !important;
   margin: 0 !important;
-  border: 1px solid #dfb93f !important;
-  border-radius: 10px !important;
-  color: #ffe47d !important;
-  background: linear-gradient(155deg,#43391d,#1b1911 64%) !important;
-  box-shadow: 0 2px 8px #000b, inset 0 1px #ffe58d46;
-  transform: translateY(-50%);
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: var(--bt-muted) !important;
+  background: linear-gradient(var(--bt-arrow-fade),#15161300,#15161375 58%,#151613e6) !important;
+  box-shadow: none !important;
   pointer-events: auto;
   cursor: pointer;
 }
 body.bt6-home #index .game-menus .bt-menu-arrow[hidden] { display: none !important; }
-body.bt6-home #index .game-menus .bt-menu-arrow-next { right: -4px; }
-body.bt6-home #index .game-menus .bt-menu-arrow-prev { left: -4px; }
+body.bt6-home #index .game-menus .bt-menu-arrow-next {
+  --bt-arrow-fade: to right;
+  right: 0;
+  justify-items: end;
+}
+body.bt6-home #index .game-menus .bt-menu-arrow-prev {
+  --bt-arrow-fade: to left;
+  left: 0;
+  justify-items: start;
+}
 body.bt6-home #index .game-menus .bt-menu-arrow::before {
   content: "";
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border: solid currentColor;
-  border-width: 2px 2px 0 0;
-  transform: translateX(-2px) rotate(45deg);
+  border-width: 1.5px 1.5px 0 0;
+  filter: drop-shadow(0 1px 2px #0008);
+  transform: rotate(45deg);
 }
 body.bt6-home #index .game-menus .bt-menu-arrow-prev::before {
-  transform: translateX(2px) rotate(-135deg);
+  transform: rotate(-135deg);
 }
 body.bt6-home #index .game-menus .bt-menu-arrow:focus-visible {
-  outline: 2px solid #fff2a6;
-  outline-offset: 2px;
+  outline: 2px solid var(--bt-muted) !important;
+  outline-offset: -2px;
 }
 /* Anchor the marker to the first grid track so it follows the tabs through swipes and resizes. */
 body.bt6-home #index .game-menus .game-menu::after {
