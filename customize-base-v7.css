@@ -2018,7 +2018,7 @@ body.bt6-home .bt-search {
   display: flex;
   position: relative;
   align-items: center;
-  width: clamp(103px,29vw,186px);
+  width: clamp(103px, 45vw, 186px);
   height: 32px;
   border: 1px solid #43443a;
   border-radius: 8px;
@@ -2552,7 +2552,7 @@ html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
 html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
 html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
 html.pc body.bt6-home #index .bt-catalog-title { font-size: 36px; }
-html.pc body.bt6-home .bt-search { width: 185px; height: 35px; }
+html.pc body.bt6-home .bt-search { height: 35px; }
 html.pc body.bt6-home #index .game-menus .game-menu { --bt-tab-gap: 8px; }
 html.pc body.bt6-home #index .game-list .game-menu .game-menu-item { flex-direction: row !important; gap: 7px !important; height: 55px !important; }
 html.pc body.bt6-home #index .game-menu .game-menu-item b[data-bt-jewel] { width: 35px !important; height: 35px !important; }
