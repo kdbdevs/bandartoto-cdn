@@ -1685,7 +1685,6 @@ body.bt6-home #index .tabs :is(.tab-forget,.bookmark,[data-href="#/register"]) {
 body.bt6-home #index .tabs .tab-forget {
   display: inline-flex !important;
   flex-direction: row !important;
-  gap: 5px !important;
   order: 1;
   gap: 6px !important;
   text-align: left !important;
