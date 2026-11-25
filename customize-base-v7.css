@@ -2558,7 +2558,11 @@ html.pc body.bt6-home #index > .tabs:not(.isLogin) .bookmark::before {
   clip-path: polygon(0 0,100% 0,100% 100%,50% 72%,0 100%);
 }
 html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget { grid-area: recovery; }
-html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget span { padding: 2px 0 !important; }
+html.pc body.bt6-home #index > .tabs:not(.isLogin) .tab-forget span {
+  width: auto !important;
+  padding: 2px 0 !important;
+  white-space: nowrap !important;
+}
 html.pc body.bt6-home #index > .tabs:not(.isLogin) :is(.bookmark:hover b,.tab-forget span:hover) {
   color: #ffdf58 !important;
   text-decoration: underline;
@@ -2596,6 +2600,26 @@ html.pc body.bt6-home #index #onewl-insert-wrapper a {
 }
 html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
 html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
+@media (min-width: 768px) {
+  body.bt6-home #index #onewl-insert-wrapper {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: clamp(7px, 1vw, 12px) !important;
+  }
+  body.bt6-home #index #onewl-insert-wrapper a {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    gap: clamp(7px, 1vw, 12px);
+    min-height: 69px !important;
+    padding: 7px clamp(8px, 1.3vw, 18px) !important;
+  }
+  body.bt6-home #index #onewl-insert-wrapper .bt-short-jewel {
+    width: clamp(38px, 4.2vw, 51px);
+    height: clamp(38px, 4.2vw, 51px);
+  }
+  body.bt6-home #index #onewl-insert-wrapper .bt-short-label {
+    font-size: clamp(11px, 1.2vw, 15px) !important;
+  }
+}
 html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
 html.pc body.bt6-home #index .bt-catalog-title { font-size: 36px; }
 html.pc body.bt6-home .bt-search { height: 35px; }
