@@ -1884,7 +1884,8 @@ body.bt6-home #index > .notice::before {
 body.bt6-home #index .notice .scrollText { flex: 1; min-width: 0; margin: 0 !important; overflow: hidden; }
 body.bt6-home #index .notice :is(ul,li,span) { color: #ddded5 !important; font: 500 11px/28px var(--bt-font) !important; }
 
-/* Keep the original official-link layout and apply the v7 palette. */
+/* Align the original official-link widget with the Home grid. */
+body.bt6-home #index .wlg-container-wrap[data-bt-official] { width: var(--bt-frame) !important; }
 body.bt6-home #index [data-bt-official] .wlg-title {
   color: #f2dc91;
   text-shadow: 0 1px 4px #000e;
