@@ -1703,7 +1703,7 @@ body.bt6-home #index > .user {
   width: 100% !important;
   height: 49px !important;
   margin: 0 !important;
-  padding: 4px var(--bt-gutter) 8px !important;
+  padding: 6px var(--bt-gutter) !important;
   border: 0 !important;
   border-bottom: 1px solid #3c3d3399 !important;
   background: linear-gradient(180deg, #121311, #151613 52%, #101110) !important;
