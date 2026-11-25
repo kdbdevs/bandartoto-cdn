@@ -2630,7 +2630,7 @@ html.pc body.bt6-home #index .game-list .game-menu .game-menu-item i { width: au
 html.pc body.bt6-home #index .game-menu-item i::after { font-size: 12px; }
 html.pc body.bt6-home .bt-results { margin: 14px 1px 9px; }
 html.pc body.bt6-home #index .bt-collection { font-size: 17px; }
-html.pc body.bt6-home #index .game-items > .game-category.game-category-current { grid-template-columns: repeat(4,minmax(0,1fr)) !important; gap: 15px !important; }
+html.pc body.bt6-home #index .game-items > .game-category.game-category-current { grid-template-columns: repeat(5,minmax(0,1fr)) !important; gap: 15px !important; }
 @media (min-width: 821px) {
   html.pc body.bt6-home #index .game-items .game-item h3 {
     --bt-nameplate-end: 40px;
