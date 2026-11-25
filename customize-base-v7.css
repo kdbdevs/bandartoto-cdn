@@ -1884,84 +1884,24 @@ body.bt6-home #index > .notice::before {
 body.bt6-home #index .notice .scrollText { flex: 1; min-width: 0; margin: 0 !important; overflow: hidden; }
 body.bt6-home #index .notice :is(ul,li,span) { color: #ddded5 !important; font: 500 11px/28px var(--bt-font) !important; }
 
-body.bt6-home #index .wlg-container-wrap[data-bt-official] {
-  width: var(--bt-frame);
-  margin: 8px auto 0;
-  padding: 0;
-  text-align: left;
-}
-body.bt6-home #index [data-bt-official] .wlg-bar {
-  display: block;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  box-shadow: none;
-}
-body.bt6-home #index [data-bt-official] .wlg-search-outer {
-  display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  height: auto;
-  min-height: 50px;
-  padding: 7px 11px;
-  border: 1px solid #62563a !important;
-  border-radius: 10px;
-  background: radial-gradient(ellipse at 8% 0%,#b4913129,transparent 70%), var(--bt-surface) !important;
-  box-shadow: inset 0 1px #ffedaf1a, 0 3px 8px #0005;
-  color: var(--bt-paper);
-  font: 600 13px/1.25 var(--bt-font);
-  letter-spacing: normal;
-  text-transform: none;
-}
-body.bt6-home #index [data-bt-official] .wlg-icon-wrap {
-  position: relative;
-  width: 34px;
-  height: 34px;
-  border: 1px solid #645127 !important;
-  border-radius: 8px;
-  background: linear-gradient(150deg,#4e4023,#272215 70%) !important;
-  color: #e7c96f;
-}
-body.bt6-home #index [data-bt-official] .wlg-icon-wrap::before,
-body.bt6-home #index [data-bt-official] .wlg-icon-wrap::after {
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 7px;
-  border: 1.5px solid currentColor;
-  border-radius: 5px;
-  transform: rotate(-45deg);
-}
-body.bt6-home #index [data-bt-official] .wlg-icon-wrap::before { left: 6px; top: 15px; }
-body.bt6-home #index [data-bt-official] .wlg-icon-wrap::after { left: 13px; top: 9px; }
-body.bt6-home #index [data-bt-official] .bt-official-labels { display: grid; gap: 2px; min-width: 0; }
+/* Keep the original official-link layout and apply the v7 palette. */
 body.bt6-home #index [data-bt-official] .wlg-title {
-  display: block;
-  margin: 0;
-  color: var(--bt-paper);
-  font: inherit;
-  font-weight: 700;
-  letter-spacing: normal;
-  text-transform: none;
-  text-shadow: none;
-  animation: none;
+  color: #f2dc91;
+  text-shadow: 0 1px 4px #000e;
 }
-body.bt6-home #index [data-bt-official] .bt-official-address {
-  color: #dbc78a;
-  font-size: 11px;
-  overflow-wrap: anywhere;
+body.bt6-home #index [data-bt-official] .wlg-title svg { color: inherit; }
+body.bt6-home #index [data-bt-official] .wlg-bar {
+  border-color: #a98a37;
+  background: var(--bt-surface);
+  box-shadow: inset 0 1px #ffedaf22, 0 3px 8px #0006;
 }
-body.bt6-home #index [data-bt-official] .wlg-search-outer::after {
-  content: "↗";
-  color: #d8c38b;
-  font-size: 16px;
+body.bt6-home #index [data-bt-official] :is(.wlg-icon-wrap,.wlg-search-outer) {
+  background: var(--bt-metal) !important;
+  border-color: #e6c957 !important;
+  color: var(--bt-ink);
 }
-body.bt6-home #index [data-bt-official] .wlg-search-outer:is(:hover,:focus-visible) {
-  border-color: #ad9147 !important;
+@media (prefers-reduced-motion: reduce) {
+  body.bt6-home #index [data-bt-official] .wlg-title { animation: none; }
 }
 
 /* Four individual enamel tones echo the shortcut illustrations. */
