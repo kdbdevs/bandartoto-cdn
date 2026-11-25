@@ -1615,7 +1615,7 @@ body.bt6-home :is(button,a,input,[tabindex]):focus-visible {
   outline-offset: 2px;
 }
 body.bt6-home [hidden],
-body:not(.bt6-home) #index :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-empty,.wlg-container-wrap[data-bt-official]) {
+body:not(.bt6-home) #index :is(.bt-quick-head,.bt-catalog-head,.bt-results,.bt-empty,.wlg-container-wrap[data-bt-official],#kdb-widget-v4) {
   display: none !important;
 }
 
@@ -1907,6 +1907,21 @@ body.bt6-home #index > .notice::before {
 }
 body.bt6-home #index .notice .scrollText { flex: 1; min-width: 0; margin: 0 !important; overflow: hidden; }
 body.bt6-home #index .notice :is(ul,li,span) { color: #ddded5 !important; font: 500 11px/28px var(--bt-font) !important; }
+
+/* Live match widget. The embedded document reports its content height with postMessage. */
+body.bt6-home #index > #kdb-widget-v4 {
+  display: block !important;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: var(--bt-frame) !important;
+  max-width: var(--bt-width) !important;
+  margin: 4px auto 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  color-scheme: dark;
+  overflow: hidden;
+}
 
 /* Align the original official-link widget with the Home grid. */
 body.bt6-home #index .wlg-container-wrap[data-bt-official] { width: var(--bt-frame) !important; }
