@@ -2053,7 +2053,7 @@ body.bt6-home #index .game-menus .game-menu {
   position: relative !important;
   display: grid !important;
   grid-auto-flow: column !important;
-  grid-auto-columns: minmax(46px, 1fr) !important;
+  grid-auto-columns: minmax(64px, 1fr) !important;
   align-items: stretch !important;
   gap: var(--bt-tab-gap) !important;
   padding: 2px 1px 4px !important;
