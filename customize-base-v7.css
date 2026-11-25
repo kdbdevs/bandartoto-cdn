@@ -1682,13 +1682,38 @@ body.bt6-home #index .tabs :is(.tab-forget,.bookmark,[data-href="#/register"]) {
   background: transparent !important;
   border: 0 !important;
 }
-body.bt6-home #index .tabs .tab-forget { order: 1; }
-body.bt6-home #index .tabs .tab-forget::before,
+body.bt6-home #index .tabs .tab-forget {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  gap: 5px !important;
+  order: 1;
+  gap: 6px !important;
+  text-align: left !important;
+}
+body.bt6-home #index .tabs .tab-forget::before {
+  content: "?" !important;
+  display: inline-grid !important;
+  place-items: center;
+  flex: 0 0 19px;
+  width: 19px;
+  height: 19px;
+  box-sizing: border-box;
+  border: 1px solid #d7b83e !important;
+  border-radius: 50%;
+  color: #ffe66c;
+  background: linear-gradient(145deg,#262619,#11120f 72%);
+  box-shadow: inset 0 1px #fff4a138, 0 1px 4px #0008;
+  font: 800 12px/1 var(--bt-font);
+}
 body.bt6-home #index .tabs .tab-forget span::before { content: none !important; }
 body.bt6-home #index .tabs .tab-forget span {
+  display: block !important;
+  width: 46px !important;
   color: #d3d3cb !important;
-  font: inherit !important;
-  padding: 5px 0 !important;
+  font: 600 11px/1.05 var(--bt-font) !important;
+  text-align: left !important;
+  white-space: normal !important;
+  padding: 0 !important;
   background: none !important;
 }
 body.bt6-home #index .tabs .tab[data-href="#/register"] img,
