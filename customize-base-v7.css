@@ -2047,7 +2047,11 @@ body.bt6-home #index .game-list :is(.game-menus,.game-menu,.game-items) {
   background: transparent !important;
   transform: none !important;
 }
-body.bt6-home #index .game-list .game-menus { display: block !important; overflow: visible !important; }
+body.bt6-home #index .game-list .game-menus {
+  display: block !important;
+  position: relative !important;
+  overflow: visible !important;
+}
 body.bt6-home #index .game-menus .game-menu {
   --bt-tab-gap: 4px;
   position: relative !important;
@@ -2060,6 +2064,49 @@ body.bt6-home #index .game-menus .game-menu {
   overflow: auto hidden !important;
   scrollbar-width: thin;
   scrollbar-color: #726933 transparent;
+}
+body.bt6-home #index .game-menus .bt-menu-arrows {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+body.bt6-home #index .game-menus .bt-menu-arrow {
+  position: absolute;
+  top: 50%;
+  display: grid !important;
+  place-items: center;
+  box-sizing: border-box;
+  width: 34px !important;
+  height: 44px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 1px solid #dfb93f !important;
+  border-radius: 10px !important;
+  color: #ffe47d !important;
+  background: linear-gradient(155deg,#43391d,#1b1911 64%) !important;
+  box-shadow: 0 2px 8px #000b, inset 0 1px #ffe58d46;
+  transform: translateY(-50%);
+  pointer-events: auto;
+  cursor: pointer;
+}
+body.bt6-home #index .game-menus .bt-menu-arrow[hidden] { display: none !important; }
+body.bt6-home #index .game-menus .bt-menu-arrow-next { right: -4px; }
+body.bt6-home #index .game-menus .bt-menu-arrow-prev { left: -4px; }
+body.bt6-home #index .game-menus .bt-menu-arrow::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: solid currentColor;
+  border-width: 2px 2px 0 0;
+  transform: translateX(-2px) rotate(45deg);
+}
+body.bt6-home #index .game-menus .bt-menu-arrow-prev::before {
+  transform: translateX(2px) rotate(-135deg);
+}
+body.bt6-home #index .game-menus .bt-menu-arrow:focus-visible {
+  outline: 2px solid #fff2a6;
+  outline-offset: 2px;
 }
 /* Anchor the marker to the first grid track so it follows the tabs through swipes and resizes. */
 body.bt6-home #index .game-menus .game-menu::after {
