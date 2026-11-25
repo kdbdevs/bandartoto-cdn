@@ -1932,7 +1932,12 @@ body.bt6-home #index #onewl-insert-wrapper a {
   --bt-aura: #84762e;
   --bt-rim: #52503a;
   --bt-tint: #272821;
-  --bt-quick-halo: radial-gradient(circle 33px at center,#f1d08216,#f1d08208 68%,#ead19238 85%,#ead19212 92%,transparent);
+  --bt-quick-corner-stops: #e5c27412 46%, #ddc17d99 49% 51%, transparent 54%;
+  --bt-quick-corners:
+    linear-gradient(135deg,var(--bt-quick-corner-stops)) top left / 16px 16px no-repeat,
+    linear-gradient(225deg,var(--bt-quick-corner-stops)) top right / 16px 16px no-repeat,
+    linear-gradient(45deg,var(--bt-quick-corner-stops)) bottom left / 16px 16px no-repeat,
+    linear-gradient(315deg,var(--bt-quick-corner-stops)) bottom right / 16px 16px no-repeat;
   position: relative !important;
   isolation: isolate !important;
   display: flex !important;
@@ -1945,7 +1950,7 @@ body.bt6-home #index #onewl-insert-wrapper a {
   padding: 3px 2px 7px !important;
   border: 1px solid var(--bt-rim) !important;
   border-radius: 10px !important;
-  background: var(--bt-quick-halo), radial-gradient(ellipse at 50% -25%, var(--bt-aura) -40%, transparent 75%), linear-gradient(155deg,var(--bt-tint) 0%, #191a18 54%, #0e0f0f 100%) !important;
+  background: var(--bt-quick-corners), radial-gradient(ellipse at 50% -25%, var(--bt-aura) -40%, transparent 75%), linear-gradient(155deg,var(--bt-tint) 0%, #191a18 54%, #0e0f0f 100%) !important;
   box-shadow: inset 0 1px #fff2cb29, inset 0 -2px 4px #0005, 0 3px 6px #0005 !important;
   color: #ffefd9 !important;
   text-decoration: none !important;
@@ -2568,7 +2573,7 @@ html.pc body.bt6-home #index #onewl-insert-wrapper a {
   flex-direction: row; justify-content: flex-start !important; gap: 12px;
   min-height: 69px !important; padding: 7px clamp(12px,1.8vw,30px) !important;
   border-radius: 12px !important;
-  background: var(--bt-quick-halo), radial-gradient(ellipse at 10% -35%,var(--bt-aura) -40%,transparent 79%),linear-gradient(140deg,var(--bt-tint),#191a18 64%,#101110) !important;
+  background: var(--bt-quick-corners), radial-gradient(ellipse at 10% -35%,var(--bt-aura) -40%,transparent 79%),linear-gradient(140deg,var(--bt-tint),#191a18 64%,#101110) !important;
 }
 html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
 html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
