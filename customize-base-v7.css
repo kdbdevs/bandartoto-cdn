@@ -1952,46 +1952,40 @@ body.bt6-home #index #onewl-insert-wrapper a {
   text-transform: none !important;
   overflow: hidden;
 }
-body.bt6-home #index #onewl-insert-wrapper a::before {
+body.bt6-home #index #onewl-insert-wrapper a::before,
+body.bt6-home #index #onewl-insert-wrapper a::after {
   content: "" !important;
   position: absolute !important;
-  inset: -48px -17px auto auto !important;
-  width: 70px; height: 70px;
-  border: 1px solid #ffdeaa17;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px #ffe9c607, 0 0 0 11px #ffe9c607;
-  background: none !important;
-  animation: none !important;
+  inset: 0 -9px 0 auto !important;
+  width: clamp(65px, 37%, 175px);
+  z-index: -1 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transform: skewX(-28deg);
+  transform-origin: bottom left;
   pointer-events: none;
+}
+body.bt6-home #index #onewl-insert-wrapper a::before {
+  background:
+    linear-gradient(90deg,#dec27a65 0 1px,#ffda8e21 1px 7px,#ecd18249 7px 8px,transparent 8px),
+    linear-gradient(113deg,#c7a65a33,#c7a65a12 55%,#c7a65a04) !important;
+  animation: none !important;
 }
 body.bt6-home #index #onewl-insert-wrapper a::after { content: none !important; }
 
-/* Move the existing gold corner rings and let a soft reflection follow them. */
-@keyframes bt7-quick-rings {
-  0%, 100% { transform: none; }
-  50% { transform: translate(-5px, 4px) scale(1.09); }
-}
-@keyframes bt7-quick-reflection {
-  0%, 100% { opacity: 0; transform: translateX(-22%); }
-  50% { opacity: .72; transform: translateX(16%); }
+@keyframes bt7-quick-facet-sheen {
+  0% { opacity: 0; transform: skewX(-28deg); }
+  18% { opacity: .78; }
+  55%, 100% { opacity: 0; transform: skewX(-28deg) translateX(62%); }
 }
 @media (prefers-reduced-motion: no-preference) {
   body.bt6-home #index #onewl-insert-wrapper a:nth-child(2) { --bt-quick-delay: -1.2s; }
   body.bt6-home #index #onewl-insert-wrapper a:nth-child(3) { --bt-quick-delay: -2.4s; }
   body.bt6-home #index #onewl-insert-wrapper a:nth-child(4) { --bt-quick-delay: -3.6s; }
-  body.bt6-home #index #onewl-insert-wrapper a::before {
-    animation: bt7-quick-rings 5s ease-in-out var(--bt-quick-delay, 0s) infinite !important;
-  }
   body.bt6-home #index #onewl-insert-wrapper a::after {
     content: "" !important;
-    position: absolute;
-    inset: 0 !important;
-    z-index: -1 !important;
-    pointer-events: none;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    background: radial-gradient(ellipse at 54% 0, #ffdc3240, #ffe39514 38%, transparent 68%) !important;
-    animation: bt7-quick-reflection 5s ease-in-out var(--bt-quick-delay, 0s) infinite;
+    background: linear-gradient(100deg,transparent 8%,#fff0c340 44%,transparent 77%) !important;
+    animation: bt7-quick-facet-sheen 5s ease-in-out var(--bt-quick-delay, 0s) infinite;
   }
 }
 body.bt6-home #index #onewl-insert-wrapper .bt-short-label {
@@ -2568,7 +2562,6 @@ html.pc body.bt6-home #index #onewl-insert-wrapper a {
   border-radius: 12px !important;
   background: radial-gradient(ellipse at 10% -35%,var(--bt-aura) -40%,transparent 79%),linear-gradient(140deg,var(--bt-tint),#191a18 64%,#101110) !important;
 }
-html.pc body.bt6-home #index #onewl-insert-wrapper a::before { width: 120px; height: 120px; top: -88px !important; }
 html.pc body.bt6-home .bt-short-jewel { width: 51px; height: 51px; }
 html.pc body.bt6-home #index #onewl-insert-wrapper .bt-short-label { font-size: 15px !important; }
 html.pc body.bt6-home #index > .game-list { margin-top: 23px !important; }
