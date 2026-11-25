@@ -2374,10 +2374,10 @@ body.bt6-home #index .game-items .game-item h3::after {
   filter: drop-shadow(0 0 3px #ffd151ad);
   transform: translateY(-50%) rotate(45deg);
 }
-html.mobile body.bt6-home #index .game-items .game-item h3::before {
+html:is(.mobile,.pc) body.bt6-home #index .game-items .game-item h3::before {
   --bt-nameplate-metal: linear-gradient(154deg,#ffef9d,#edbb32 42%,#aa7418 74%,#bc881e);
 }
-html.mobile body.bt6-home #index .game-items .game-item h3::after {
+html:is(.mobile,.pc) body.bt6-home #index .game-items .game-item h3::after {
   border-color: #332206;
   filter: drop-shadow(0 1px #fff3ad99);
 }
